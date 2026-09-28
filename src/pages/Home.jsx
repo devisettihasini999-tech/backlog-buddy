@@ -8,7 +8,7 @@ import { SectionTitle, Stat, CardSkeletons, EmptyState } from '../components/ui.
 import { I } from '../components/Icons.jsx'
 import { TAGLINE, APP_NAME } from '../lib/config.js'
 
-const BRANCH_ICONS = { cse: I.code, aiml: I.cpu, ds: I.chart, ece: I.chipIcon || I.cpu, eee: I.bolt, me: I.gear, ce: I.bridge, it: I.globe, oth: I.box }
+const BRANCH_ICONS = { cse: I.code, aiml: I.cpu, ds: I.chart, ece: I.cpu, eee: I.bolt, me: I.gear, ce: I.bridge, it: I.globe, oth: I.box }
 
 export default function Home() {
   const [stats, setStats] = useState(null)

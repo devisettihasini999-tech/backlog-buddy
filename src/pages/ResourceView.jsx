@@ -62,7 +62,6 @@ export default function ResourceView() {
         <div className="space-y-4">
           {blocks.map((b, i) => {
             const lines = b.split('\n').map((l) => l.trim()).filter(Boolean)
-            const isList = lines.length > 1 && lines.every((l) => l.startsWith('- ') || /^\d+\./.test(l) || l.startsWith('Day ') || l.startsWith('Step ') || l.startsWith('Units') === false && false || l === l)
             if (lines.length > 1 && lines.every((l) => /^(- |\d+\.|Day |Step |Unit )/.test(l))) {
               return (
                 <div key={i} className="space-y-2">

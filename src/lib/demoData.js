@@ -589,7 +589,9 @@ const questions = Object.entries(BANKS).flatMap(([subjectId, rows]) =>
 )
 
 // ------------------------------------------------------ study materials
-const P = (s) => s.trim()
+// Used as a tagged template: P`...` → trimmed string (handles interpolation too)
+const P = (parts, ...values) =>
+  (Array.isArray(parts) ? parts.reduce((acc, p, i) => acc + p + (i < values.length ? values[i] : ''), '') : String(parts)).trim()
 const materials = [
   {
     id: 'm-g1', subject_id: null, mtype: 'plan',

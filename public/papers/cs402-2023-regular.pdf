@@ -1,0 +1,89 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3637 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm (JNTU Hyderabad) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 763.0 Tm (REGULAR EXAMINATION ? 2023) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 746.0 Tm (Operating Systems ? Regular Examination, 2023) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 729.0 Tm (Subject Code: CS402    Semester: 4    Regulation: R20) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 712.0 Tm (Time: 3 Hours    Max. Marks: 70) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 695.0 Tm (..............................................................................) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 678.0 Tm (Note: This is a demo question paper generated for Backlog Buddy.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 661.0 Tm (Answer all questions. Assume suitable data wherever necessary.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 644.0 Tm (..............................................................................) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 627.0 Tm (SECTION A  \(Unit 1: Process Management\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 610.0 Tm (1. Explain process states and the Process Control Block \(PCB\) with a neat state) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 593.0 Tm (transition diagram.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 576.0 Tm (2. Differentiate between process and thread. Explain multithreading models with) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 559.0 Tm (examples.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 542.0 Tm (3. How is Process Management implemented? Give an algorithm / procedure and explain.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 525.0 Tm ([12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 499.5 Tm (SECTION B  \(Unit 2: CPU Scheduling\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 482.5 Tm (4. Explain CPU scheduling algorithms ? FCFS, SJF, Round Robin and Priority ? with) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 465.5 Tm (suitable examples and Gantt charts.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 448.5 Tm (5. Calculate the average waiting time and average turnaround time for the given set of) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 431.5 Tm (processes using Round Robin scheduling \(time quantum = 2\).   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 414.5 Tm (6. How is CPU Scheduling implemented? Give an algorithm / procedure and explain.   [12) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 397.5 Tm (Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 372.0 Tm (SECTION C  \(Unit 3: Memory Management\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 355.0 Tm (7. Explain paging and segmentation memory management techniques. Compare paging and) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 338.0 Tm (segmentation.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 321.0 Tm (8. What is virtual memory? Explain the working of demand paging with necessary diagrams.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 304.0 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 287.0 Tm (9. Solve a problem related to Memory Management. Show all the steps clearly.   [12) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 270.0 Tm (Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 244.5 Tm (SECTION D  \(Unit 4: File Systems\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 227.5 Tm (10. Explain file system architecture, directory structure and allocation methods ?) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 210.5 Tm (contiguous, linked and indexed.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 193.5 Tm (11. Define File Systems. Explain its significance in Operating Systems with a suitable) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 176.5 Tm (example.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 159.5 Tm (12. Solve a problem related to File Systems. Show all the steps clearly.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 134.0 Tm (SECTION E  \(Unit 5: Deadlocks and Synchronization\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 117.0 Tm (13. What is a deadlock? Explain the necessary conditions for deadlock and the methods) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 540 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm (for handling it.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 763.0 Tm (14. Explain the Banker's algorithm for deadlock avoidance with an example. How is the) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 746.0 Tm (safe state determined?   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 729.0 Tm (15. Explain the producer?consumer problem and the readers?writers problem with semaphore) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 712.0 Tm (solutions.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 686.5 Tm (*** End of Question Paper ***) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000196 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000004091 00000 n 
+0000004227 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4818
+%%EOF

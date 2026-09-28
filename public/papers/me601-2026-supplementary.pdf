@@ -1,0 +1,87 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3566 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm (AKTU Lucknow) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 763.0 Tm (SUPPLEMENTARY EXAMINATION ? 2026) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 746.0 Tm (Automobile Engineering ? Supplementary Examination, 2026) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 729.0 Tm (Subject Code: ME601    Semester: 6    Regulation: R20) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 712.0 Tm (Time: 3 Hours    Max. Marks: 70) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 695.0 Tm (..............................................................................) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 678.0 Tm (Note: This is a demo question paper generated for Backlog Buddy.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 661.0 Tm (Answer all questions. Assume suitable data wherever necessary.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 644.0 Tm (..............................................................................) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 627.0 Tm (SECTION A  \(Unit 1: Engine Components and Systems\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 610.0 Tm (1. How is Engine Components and Systems implemented? Give an algorithm / procedure and) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 593.0 Tm (explain.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 576.0 Tm (2. Write short notes on Engine Components and Systems.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 559.0 Tm (3. List the advantages and limitations of Engine Components and Systems. Explain any two) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 542.0 Tm (in detail.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 516.5 Tm (SECTION B  \(Unit 2: Fuel Supply and Ignition\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 499.5 Tm (4. How is Fuel Supply and Ignition implemented? Give an algorithm / procedure and) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 482.5 Tm (explain.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 465.5 Tm (5. Derive the expression related to Fuel Supply and Ignition and explain each term.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 448.5 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 431.5 Tm (6. List the advantages and limitations of Fuel Supply and Ignition. Explain any two in) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 414.5 Tm (detail.   [8 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 389.0 Tm (SECTION C  \(Unit 3: Transmission Systems\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 372.0 Tm (7. Define Transmission Systems. Explain its significance in Automobile Engineering with) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 355.0 Tm (a suitable example.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 338.0 Tm (8. How is Transmission Systems implemented? Give an algorithm / procedure and explain.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 321.0 Tm ([8 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 304.0 Tm (9. Write short notes on Transmission Systems.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 278.5 Tm (SECTION D  \(Unit 4: Steering, Suspension and Brakes\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 261.5 Tm (10. Compare and contrast the key concepts involved in Steering, Suspension and Brakes.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 244.5 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 227.5 Tm (11. Explain Steering, Suspension and Brakes with a neat diagram/sketch and a suitable) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 210.5 Tm (example.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 193.5 Tm (12. How is Steering, Suspension and Brakes implemented? Give an algorithm / procedure) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 176.5 Tm (and explain.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 151.0 Tm (SECTION E  \(Unit 5: Vehicle Emission Control\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 134.0 Tm (13. Solve a problem related to Vehicle Emission Control. Show all the steps clearly.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 117.0 Tm ([8 Marks]) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 375 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm (14. Explain Vehicle Emission Control with a neat diagram/sketch and a suitable example.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 763.0 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 746.0 Tm (15. Discuss the engineering applications of Vehicle Emission Control.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 720.5 Tm (*** End of Question Paper ***) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000196 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000004020 00000 n 
+0000004156 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4582
+%%EOF

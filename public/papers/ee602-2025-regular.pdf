@@ -1,0 +1,87 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3619 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm (Osmania University) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 763.0 Tm (REGULAR EXAMINATION ? 2025) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 746.0 Tm (Electric Vehicle Technology ? Regular Examination, 2025) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 729.0 Tm (Subject Code: EE602    Semester: 7    Regulation: R18) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 712.0 Tm (Time: 3 Hours    Max. Marks: 70) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 695.0 Tm (..............................................................................) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 678.0 Tm (Note: This is a demo question paper generated for Backlog Buddy.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 661.0 Tm (Answer all questions. Assume suitable data wherever necessary.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 644.0 Tm (..............................................................................) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 627.0 Tm (SECTION A  \(Unit 1: EV Architecture\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 610.0 Tm (1. Derive the expression related to EV Architecture and explain each term.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 593.0 Tm (2. Solve a problem related to EV Architecture. Show all the steps clearly.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 576.0 Tm (3. Describe the working principle of EV Architecture with necessary equations.   [12) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 559.0 Tm (Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 533.5 Tm (SECTION B  \(Unit 2: Battery Systems\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 516.5 Tm (4. Compare and contrast the key concepts involved in Battery Systems.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 499.5 Tm (5. Describe the working principle of Battery Systems with necessary equations.   [12) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 482.5 Tm (Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 465.5 Tm (6. How is Battery Systems implemented? Give an algorithm / procedure and explain.   [8) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 448.5 Tm (Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 423.0 Tm (SECTION C  \(Unit 3: Electric Motors for EVs\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 406.0 Tm (7. Explain Electric Motors for EVs with a neat diagram/sketch and a suitable example.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 389.0 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 372.0 Tm (8. List the advantages and limitations of Electric Motors for EVs. Explain any two in) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 355.0 Tm (detail.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 338.0 Tm (9. Define Electric Motors for EVs. Explain its significance in Electric Vehicle) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 321.0 Tm (Technology with a suitable example.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 295.5 Tm (SECTION D  \(Unit 4: Charging Infrastructure\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 278.5 Tm (10. Solve a problem related to Charging Infrastructure. Show all the steps clearly.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 261.5 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 244.5 Tm (11. Derive the expression related to Charging Infrastructure and explain each term.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 227.5 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 210.5 Tm (12. List the advantages and limitations of Charging Infrastructure. Explain any two in) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 193.5 Tm (detail.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 168.0 Tm (SECTION E  \(Unit 5: Battery Management Systems\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 151.0 Tm (13. List the advantages and limitations of Battery Management Systems. Explain any two) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 134.0 Tm (in detail.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 117.0 Tm (14. Solve a problem related to Battery Management Systems. Show all the steps clearly.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 307 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 763.0 Tm (15. Explain Battery Management Systems with a neat diagram/sketch and a suitable) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 746.0 Tm (example.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 720.5 Tm (*** End of Question Paper ***) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000196 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000004073 00000 n 
+0000004209 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4567
+%%EOF

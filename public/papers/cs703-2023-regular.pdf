@@ -1,0 +1,83 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3534 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm (Osmania University) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 763.0 Tm (REGULAR EXAMINATION ? 2023) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 746.0 Tm (Natural Language Processing ? Regular Examination, 2023) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 729.0 Tm (Subject Code: CS703    Semester: 7    Regulation: R18) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 712.0 Tm (Time: 3 Hours    Max. Marks: 70) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 695.0 Tm (..............................................................................) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 678.0 Tm (Note: This is a demo question paper generated for Backlog Buddy.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 661.0 Tm (Answer all questions. Assume suitable data wherever necessary.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 644.0 Tm (..............................................................................) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 627.0 Tm (SECTION A  \(Unit 1: Text Preprocessing\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 610.0 Tm (1. How is Text Preprocessing implemented? Give an algorithm / procedure and explain.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 593.0 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 576.0 Tm (2. How is Text Preprocessing implemented? Give an algorithm / procedure and explain.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 559.0 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 542.0 Tm (3. Compare and contrast the key concepts involved in Text Preprocessing.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 516.5 Tm (SECTION B  \(Unit 2: Language Models\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 499.5 Tm (4. Describe the working principle of Language Models with necessary equations.   [12) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 482.5 Tm (Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 465.5 Tm (5. Discuss the engineering applications of Language Models.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 448.5 Tm (6. Write short notes on Language Models.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 423.0 Tm (SECTION C  \(Unit 3: POS Tagging and Parsing\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 406.0 Tm (7. How is POS Tagging and Parsing implemented? Give an algorithm / procedure and) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 389.0 Tm (explain.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 372.0 Tm (8. Derive the expression related to POS Tagging and Parsing and explain each term.   [12) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 355.0 Tm (Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 338.0 Tm (9. Solve a problem related to POS Tagging and Parsing. Show all the steps clearly.   [8) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 321.0 Tm (Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 295.5 Tm (SECTION D  \(Unit 4: Word Embeddings\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 278.5 Tm (10. Solve a problem related to Word Embeddings. Show all the steps clearly.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 261.5 Tm (11. List the advantages and limitations of Word Embeddings. Explain any two in detail.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 244.5 Tm ([8 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 227.5 Tm (12. Write short notes on Word Embeddings.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 202.0 Tm (SECTION E  \(Unit 5: Machine Translation and Question Answering\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 185.0 Tm (13. Derive the expression related to Machine Translation and Question Answering and) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 168.0 Tm (explain each term.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 151.0 Tm (14. Write short notes on Machine Translation and Question Answering.   [8 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 134.0 Tm (15. Write short notes on Machine Translation and Question Answering.   [12 Marks]) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 70 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm (*** End of Question Paper ***) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000196 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000003988 00000 n 
+0000004124 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4244
+%%EOF

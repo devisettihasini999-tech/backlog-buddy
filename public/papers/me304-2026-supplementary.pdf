@@ -1,0 +1,88 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3560 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm (AKTU Lucknow) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 763.0 Tm (SUPPLEMENTARY EXAMINATION ? 2026) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 746.0 Tm (Fluid Mechanics ? Supplementary Examination, 2026) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 729.0 Tm (Subject Code: ME304    Semester: 4    Regulation: R20) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 712.0 Tm (Time: 3 Hours    Max. Marks: 70) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 695.0 Tm (..............................................................................) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 678.0 Tm (Note: This is a demo question paper generated for Backlog Buddy.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 661.0 Tm (Answer all questions. Assume suitable data wherever necessary.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 644.0 Tm (..............................................................................) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 627.0 Tm (SECTION A  \(Unit 1: Fluid Statics\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 610.0 Tm (1. Derive the expression related to Fluid Statics and explain each term.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 593.0 Tm (2. List the advantages and limitations of Fluid Statics. Explain any two in detail.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 576.0 Tm ([12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 559.0 Tm (3. How is Fluid Statics implemented? Give an algorithm / procedure and explain.   [8) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 542.0 Tm (Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 516.5 Tm (SECTION B  \(Unit 2: Kinematics of Fluid Flow\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 499.5 Tm (4. Compare and contrast the key concepts involved in Kinematics of Fluid Flow.   [12) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 482.5 Tm (Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 465.5 Tm (5. List the advantages and limitations of Kinematics of Fluid Flow. Explain any two in) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 448.5 Tm (detail.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 431.5 Tm (6. Define Kinematics of Fluid Flow. Explain its significance in Fluid Mechanics with a) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 414.5 Tm (suitable example.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 389.0 Tm (SECTION C  \(Unit 3: Bernoulli's Equation and Applications\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 372.0 Tm (7. List the advantages and limitations of Bernoulli's Equation and Applications. Explain) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 355.0 Tm (any two in detail.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 338.0 Tm (8. Derive the expression related to Bernoulli's Equation and Applications and explain) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 321.0 Tm (each term.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 304.0 Tm (9. Compare and contrast the key concepts involved in Bernoulli's Equation and) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 287.0 Tm (Applications.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 261.5 Tm (SECTION D  \(Unit 4: Flow Through Pipes\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 244.5 Tm (10. Explain Flow Through Pipes with a neat diagram/sketch and a suitable example.   [8) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 227.5 Tm (Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 210.5 Tm (11. List the advantages and limitations of Flow Through Pipes. Explain any two in) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 193.5 Tm (detail.   [8 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 176.5 Tm (12. Solve a problem related to Flow Through Pipes. Show all the steps clearly.   [8) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 159.5 Tm (Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 134.0 Tm (SECTION E  \(Unit 5: Boundary Layer Theory\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 117.0 Tm (13. Solve a problem related to Boundary Layer Theory. Show all the steps clearly.   [12) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 416 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm (Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 763.0 Tm (14. Discuss the engineering applications of Boundary Layer Theory.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 746.0 Tm (15. Derive the expression related to Boundary Layer Theory and explain each term.   [12) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 729.0 Tm (Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 703.5 Tm (*** End of Question Paper ***) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000196 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000004014 00000 n 
+0000004150 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4617
+%%EOF

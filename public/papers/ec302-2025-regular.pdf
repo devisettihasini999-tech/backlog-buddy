@@ -1,0 +1,70 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3449 >>
+stream
+BT /F1 13 Tf 1 0 0 1 50 780.0 Tm (JNTU Kakinada) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 763.0 Tm (REGULAR EXAMINATION ? 2025) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 746.0 Tm (Analog Electronic Circuits ? Regular Examination, 2025) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 729.0 Tm (Subject Code: EC302    Semester: 3    Regulation: R23) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 712.0 Tm (Time: 3 Hours    Max. Marks: 70) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 695.0 Tm (..............................................................................) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 678.0 Tm (Note: This is a demo question paper generated for Backlog Buddy.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 661.0 Tm (Answer all questions. Assume suitable data wherever necessary.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 644.0 Tm (..............................................................................) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 627.0 Tm (SECTION A  \(Unit 1: Diode Circuits\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 610.0 Tm (1. Define Diode Circuits. Explain its significance in Analog Electronic Circuits with a) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 593.0 Tm (suitable example.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 576.0 Tm (2. Describe the working principle of Diode Circuits with necessary equations.   [12) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 559.0 Tm (Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 542.0 Tm (3. List the advantages and limitations of Diode Circuits. Explain any two in detail.) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 525.0 Tm ([12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 499.5 Tm (SECTION B  \(Unit 2: BJT Amplifiers\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 482.5 Tm (4. Compare and contrast the key concepts involved in BJT Amplifiers.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 465.5 Tm (5. Derive the expression related to BJT Amplifiers and explain each term.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 448.5 Tm (6. Discuss the engineering applications of BJT Amplifiers.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 423.0 Tm (SECTION C  \(Unit 3: FET Amplifiers\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 406.0 Tm (7. Compare and contrast the key concepts involved in FET Amplifiers.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 389.0 Tm (8. Derive the expression related to FET Amplifiers and explain each term.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 372.0 Tm (9. Describe the working principle of FET Amplifiers with necessary equations.   [8) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 355.0 Tm (Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 329.5 Tm (SECTION D  \(Unit 4: Feedback Amplifiers\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 312.5 Tm (10. Compare and contrast the key concepts involved in Feedback Amplifiers.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 295.5 Tm (11. Compare and contrast the key concepts involved in Feedback Amplifiers.   [8 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 278.5 Tm (12. List the advantages and limitations of Feedback Amplifiers. Explain any two in) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 261.5 Tm (detail.   [12 Marks]) Tj ET
+BT /F1 11 Tf 1 0 0 1 50 236.0 Tm (SECTION E  \(Unit 5: Oscillators\)) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 219.0 Tm (13. Derive the expression related to Oscillators and explain each term.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 202.0 Tm (14. Discuss the engineering applications of Oscillators.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 185.0 Tm (15. Derive the expression related to Oscillators and explain each term.   [12 Marks]) Tj ET
+BT /F2 11 Tf 1 0 0 1 50 159.5 Tm (*** End of Question Paper ***) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000190 00000 n 
+0000000260 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3897
+%%EOF

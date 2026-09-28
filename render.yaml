@@ -1,0 +1,66 @@
+# ============================================================================
+# Backlog Buddy — Render Blueprint
+# Dashboard -> New -> Blueprint -> pick this repository -> Apply.
+# Creates both the API (web service) and the frontend (static site).
+# ============================================================================
+services:
+  # ---------------- Backend API ----------------
+  - type: web
+    name: backlog-buddy-api
+    runtime: node
+    plan: free
+    region: oregon
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+    envVars:
+      - key: SUPABASE_URL
+        value: https://jcltcmildaclwjkxgrgu.supabase.co
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      # Direct Postgres connection string. When set, the API creates every
+      # table automatically on boot (see server/lib/schema.js).
+      - key: SUPABASE_DB_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-1.5-flash
+      # Empty disables static hosting on the API service (the static site
+      # below serves the frontend), so the two stay independent.
+      - key: STATIC_DIR
+        value: ""
+      - key: NODE_VERSION
+        value: "20"
+
+  # ---------------- Frontend (static) ----------------
+  - type: web
+    name: backlog-buddy-web
+    runtime: static
+    plan: free
+    region: oregon
+    buildCommand: echo "Backlog Buddy - static site, no build step"
+    staticPublishPath: .
+    autoDeployTrigger: commit
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /404.html
+    headers:
+      - path: /assets/js/*
+        name: Cache-Control
+        value: public, max-age=3600
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN

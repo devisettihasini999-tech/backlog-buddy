@@ -9,7 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "gen:pdfs": "python3 scripts/make_demo_pdfs.py",
-    "setup:supabase": "node scripts/setup-supabase.js"
+    "setup:supabase": "node scripts/setup-supabase.js",
+    "seed:demo": "node scripts/seed-demo.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.10",

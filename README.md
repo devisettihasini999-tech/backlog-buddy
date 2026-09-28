@@ -37,19 +37,21 @@ The app has a dual data layer (`src/lib/db.js`):
 
 The app auto-detects the mode on load (badge in the header shows which is active).
 
-### Database setup (one-time, ~1 minute)
+### Database setup (one-time)
 
-1. Open your Supabase dashboard → **SQL Editor** → New query.
-2. Paste the entire contents of [`supabase/schema.sql`](supabase/schema.sql) and run it.
+1. **Create the tables** — Supabase dashboard → **SQL Editor** → paste the entire
+   [`supabase/schema.sql`](supabase/schema.sql) → **Run**. This creates the tables,
+   indexes, the public Storage bucket `papers`, and the RLS policies.
 
-That creates:
+2. **(Optional, recommended) Seed the demo data into the live database**:
 
-```
-branches → semesters → subjects → question_papers → questions → study_materials
-                                    └── question_paper_links (frequency analysis)
-```
+   ```bash
+   VITE_SUPABASE_SERVICE_KEY=*** npm run seed:demo
+   ```
 
-plus the public Storage bucket `papers` and RLS policies.
+   This uploads the 57 sample PDFs to the public `papers` bucket and upserts the
+   full demo dataset (branches, semesters, subjects, papers, questions, materials)
+   so the whole community sees the same data. Idempotent — safe to re-run.
 
 > ⚠️ The included RLS policies let anonymous users write (so the demo admin panel works in the browser without login). For production, add Supabase Auth and change the write policies to `to authenticated` / a custom admin role.
 

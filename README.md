@@ -2,6 +2,10 @@
 
 **Prepare Smart. Clear Your Backlogs.**
 
+> **Live site:** https://backlog-buddy-8cby.onrender.com · **Repo:** https://github.com/devisettihasini999-tech/backlog-buddy
+>
+> [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdevisettihasini999-tech%2Fbacklog-buddy)
+
 A modern, responsive study platform for engineering students preparing for supplementary (backlog)
 exams — previous year question papers, important & frequently repeated questions, unit-wise topics,
 model papers, study resources and preparation guidance, organized subject by subject.
@@ -60,8 +64,10 @@ VITE_SUPABASE_PUBLISHABLE_KEY=<your publishable/anon key>
 
 ## Deploy
 
-- **Vercel** — `npm i -g vercel && vercel deploy --prod` (framework: Vite, build `npm run build`, output `dist`)
-- **Render** — static site / node web service, build `npm run build`, publish `dist`
+- **Render (live now)** — web service `backlog-buddy` (free plan), build `npm install && npm run build`,
+  start `node server.js` (zero-dependency static server with SPA fallback)
+- **Vercel** — one-click button above, or `npx vercel deploy --prod` (framework: Vite, build
+  `npm run build`, output `dist`; `vercel.json` already includes SPA rewrites)
 
 ## Structure
 

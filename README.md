@@ -139,22 +139,69 @@ editor.
 
 ## Deploying
 
+### Live deployments
+
+| Environment | URL |
+| --- | --- |
+| **GitHub Pages (live now)** | https://devisettihasini999-tech.github.io/backlog-buddy/ |
+| GitHub repository | https://github.com/devisettihasini999-tech/backlog-buddy |
+| Local | `node server.js` -> http://localhost:3000 |
+| Supabase project | https://jcltcmildaclwjkxgrgu.supabase.co (public bucket `question-papers` holding the 33 sample PDFs) |
+
 ### Vercel
 
+The Vercel access token supplied with this project was rejected as invalid when
+the deployment was attempted (`invalidToken`), so the Vercel deployment could not
+be finished from here. Everything it needs is already in place:
+
+* `vercel.json` (clean URLs + security headers),
+* `api/db.js` serverless function for secure Supabase writes,
+* `deploy.sh` helper script.
+
+Create a fresh token at https://vercel.com/account/tokens and run either:
+
 ```bash
-npm i -g vercel
-vercel --prod
+./deploy.sh                                       # pushes to GitHub, then deploys
+# or
+VERCEL_TOKEN=xxxx npx vercel@latest deploy --prod --yes
 ```
 
 or connect the GitHub repository in the Vercel dashboard (framework: *Other*,
-build command: none, output directory: repository root). `vercel.json` enables
-clean URLs and security headers.
+build command: none, output directory: repository root).
+
+For automatic deploys, add this workflow to `.github/workflows/deploy.yml` (the
+token used here does not have the `workflow` scope, so the file could not be
+committed automatically):
+
+```yaml
+name: Deploy Backlog Buddy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npx --yes vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+```
+
+Add `VERCEL_TOKEN`, `VERCEL_ORG_ID` and `VERCEL_PROJECT_ID` as repository secrets
+(Settings -> Secrets and variables -> Actions).
 
 ### GitHub
 
 ```bash
 git init
-git add .
+git add -A
 git commit -m "Backlog Buddy - engineering backlog preparation platform"
 git branch -M main
 git remote add origin https://github.com/<user>/backlog-buddy.git

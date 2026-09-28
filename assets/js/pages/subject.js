@@ -174,13 +174,16 @@
   }
 
   function questionRow(q, showUnit) {
+    var aiBtn = (window.BBAPI && BBAPI.aiEnabled())
+      ? '<button class="icon-btn" data-ai="' + q.id + '" title="Explain this question with AI">' + U.icon('sparkles', 16) + '</button>'
+      : '';
     return '<div class="q-item" data-q="' + q.id + '"><span class="q-num">' + q.unit + '</span>' +
       '<div style="min-width:0;flex:1"><div class="q-text">' + U.esc(q.text) + '</div>' +
       '<div class="q-meta">' + U.tagBadges(q.tags, q.years) +
       '<span class="badge badge-gray">' + U.icon('target', 12) + U.esc(q.topic || 'General') + '</span>' +
       (showUnit ? '<span class="badge badge-gray">Unit ' + q.unit + '</span>' : '') +
       '</div></div>' +
-      '<div class="q-actions">' +
+      '<div class="q-actions">' + aiBtn +
       '<button class="icon-btn' + (BB.isBookmark(q.id) ? ' on' : '') + '" data-bm="' + q.id + '" title="Bookmark question">' + U.icon('bookmark', 16) + '</button>' +
       '<button class="icon-btn" data-copy="' + q.id + '" title="Copy question">' + U.icon('clipboard', 16) + '</button>' +
       '</div></div>';
@@ -204,6 +207,69 @@
         else U.toast('Copy not supported', 'Select the text manually.', 'error');
       });
     });
+    U.qa('[data-ai]', host).forEach(function (btn) {
+      btn.addEventListener('click', function () { askAI(BB.idx.question[btn.getAttribute('data-ai')]); });
+    });
+  }
+
+  /* ------------------------- AI assistant ------------------------- */
+  function askAI(q) {
+    if (!q) return;
+    var modes = [
+      { k: 'explain', label: 'Explain' },
+      { k: 'answer', label: 'Model answer' },
+      { k: 'summarise', label: 'Summarise topic' },
+      { k: 'plan', label: 'Revision plan' }
+    ];
+    var m = U.modal({
+      title: 'AI study assistant', icon: 'sparkles',
+      body: '<div class="callout warn" style="margin-bottom:14px">' +
+        U.icon('alert', 20) + '<div><b>Guidance only</b><p>The assistant explains and summarises from the question you give it. It never predicts exam questions.</p></div></div>' +
+        '<div class="card" style="background:var(--surface-2)"><div class="tiny muted">' + U.esc(subject.code) + ' | Unit ' + q.unit + '</div>' +
+        '<div style="font-weight:650;margin-top:4px">' + U.esc(q.text) + '</div></div>' +
+        '<div class="row row-wrap mt-3">' + modes.map(function (x) {
+          return '<button class="chip' + (x.k === 'explain' ? ' active' : '') + '" data-mode="' + x.k + '">' + x.label + '</button>';
+        }).join('') + '</div>' +
+        '<div id="ai-out" class="card mt-3" style="white-space:pre-wrap;font-size:0.93rem;min-height:120px">' +
+        '<div class="loading-block"><span class="spinner"></span><span>Thinking...</span></div></div>',
+      actions: '<button class="btn btn-outline btn-sm" data-close>Close</button>' +
+        '<button class="btn btn-primary btn-sm" id="ai-copy">' + U.icon('clipboard', 15) + 'Copy answer</button>',
+      onMount: function (el, close) {
+        var mode = 'explain';
+        var out = U.qs('#ai-out', el);
+        function run() {
+          out.innerHTML = '<div class="loading-block"><span class="spinner"></span><span>Thinking...</span></div>';
+          BBAPI.ai(q.text + '\n\nSubject: ' + subject.name + ' (' + subject.code + '), Unit ' + q.unit +
+            (subject.units[q.unit - 1] ? ' - ' + subject.units[q.unit - 1].title : ''), mode)
+            .then(function (res) {
+              out.textContent = res.answer;
+              out.setAttribute('data-src', res.source || '');
+              if (res.source === 'fallback') {
+                out.innerHTML += '<div class="tiny muted mt-2">Answered by the built in fallback - add GEMINI_API_KEY on the server for full AI answers.</div>';
+              }
+            })
+            .catch(function (e) {
+              out.innerHTML = '<div class="callout warn">' + U.icon('alert', 20) +
+                '<div><b>AI request failed</b><p>' + U.esc(e.message || 'Unknown error') + '</p></div></div>';
+            });
+        }
+        U.qa('[data-mode]', el).forEach(function (b) {
+          b.addEventListener('click', function () {
+            U.qa('[data-mode]', el).forEach(function (x) { x.classList.remove('active'); });
+            b.classList.add('active');
+            mode = b.getAttribute('data-mode');
+            run();
+          });
+        });
+        U.qs('#ai-copy', el).addEventListener('click', function () {
+          if (navigator.clipboard && out.textContent.trim()) {
+            navigator.clipboard.writeText(out.textContent).then(function () { U.toast('Copied', '', 'success'); });
+          } else U.toast('Nothing to copy', '', 'error');
+        });
+        run();
+      }
+    });
+    return m;
   }
 
   function renderImpList() {

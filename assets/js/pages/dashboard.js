@@ -50,6 +50,7 @@
     })[active]();
     U.reveal();
     bindActions();
+    bindSync();
   }
 
   /* ---------------- overview ---------------- */
@@ -66,6 +67,8 @@
     return '<div class="kpi-row">' + kpis.map(function (x) {
       return '<div class="stat"><div class="v">' + x.v + '</div><div class="k">' + x.k + '</div></div>';
     }).join('') + '</div>' +
+
+      syncCard() +
 
       '<div class="card" style="margin-bottom:18px">' +
       '<div class="row row-wrap"><div><div class="eyebrow">Preparation progress</div>' +
@@ -190,6 +193,94 @@
           '<button class="icon-btn" data-deltask="' + c.id + '" title="Delete">' + U.icon('trash', 16) + '</button></div>';
       }).join('') + '</div>'
         : emptyCard('clipboard', 'Your checklist is empty', 'Add tasks above, or add a whole subject from its page with "Add to checklist".'));
+  }
+
+  /* ---------------- cloud sync ---------------- */
+  function syncCard() {
+    if (!window.BBAPI || !window.BBAPI.enabled()) return '';
+    if (!window.BBAPI.isSignedIn()) {
+      return '<div class="card" style="margin-bottom:18px"><div class="row row-wrap">' +
+        '<span class="card-ico purple">' + U.icon('database', 20) + '</span>' +
+        '<div style="min-width:220px;flex:1"><b>Sync across devices</b>' +
+        '<div class="small muted">Sign in to keep your favourites, bookmarks, saved papers and checklist on every device.</div></div>' +
+        '<button class="btn btn-primary btn-sm" id="sync-signin">Sign in</button></div></div>';
+    }
+    var usr = window.BBAPI.user() || {};
+    return '<div class="card" style="margin-bottom:18px">' +
+      '<div class="row row-wrap"><span class="card-ico green">' + U.icon('database', 20) + '</span>' +
+      '<div style="min-width:220px;flex:1"><b>Signed in as ' + U.esc(usr.email || '') + '</b>' +
+      '<div class="small muted">Your progress is stored on the Backlog Buddy server, so it follows you to any device.</div></div>' +
+      '<div class="row row-wrap">' +
+      '<button class="btn btn-outline btn-sm" id="sync-pull">Download from cloud</button>' +
+      '<button class="btn btn-primary btn-sm" id="sync-push">Upload this device</button>' +
+      '</div></div>' +
+      '<div class="progress thin mt-2"><span id="sync-bar" style="width:0%"></span></div>' +
+      '<div class="tiny muted mt-1" id="sync-msg">Local data and cloud data are kept separate until you sync.</div></div>';
+  }
+
+  function bindSync() {
+    var signin = U.qs('#sync-signin');
+    if (signin) signin.addEventListener('click', function () { U.openSearch(); });
+    var push = U.qs('#sync-push');
+    var pull = U.qs('#sync-pull');
+    if (!push && !pull) return;
+
+    function msg(text, pct) {
+      var m = U.qs('#sync-msg'), bar = U.qs('#sync-bar');
+      if (m) m.textContent = text;
+      if (bar) bar.style.width = (pct || 0) + '%';
+    }
+
+    if (push) push.addEventListener('click', function () {
+      var u = BB.user;
+      var jobs = [];
+      u.favorites.forEach(function (id) { jobs.push(['favorites', id]); });
+      u.bookmarks.forEach(function (id) { jobs.push(['bookmarks', id]); });
+      u.savedPapers.forEach(function (id) { jobs.push(['savedPapers', id]); });
+      u.completed.forEach(function (id) { jobs.push(['completed', id]); });
+      u.checklist.forEach(function (c) { jobs.push(['checklist', c.id, c]); });
+      if (!jobs.length) { msg('Nothing to upload yet.', 0); return; }
+      push.disabled = true;
+      msg('Uploading ' + jobs.length + ' records...', 10);
+      var done = 0;
+      jobs.reduce(function (chain, job) {
+        return chain.then(function () {
+          return window.BBAPI.saveProgress(job[0], job[1], job[2] || null).catch(function () { })
+            .then(function () { done++; msg('Uploaded ' + done + ' of ' + jobs.length, 10 + (done / jobs.length) * 90); });
+        });
+      }, Promise.resolve()).then(function () {
+        push.disabled = false;
+        U.toast('Synced to the cloud', jobs.length + ' records uploaded.', 'success');
+      });
+    });
+
+    if (pull) pull.addEventListener('click', function () {
+      pull.disabled = true;
+      msg('Downloading your cloud progress...', 30);
+      window.BBAPI.progress().then(function (p) {
+        var added = 0;
+        ['favorites', 'bookmarks', 'savedPapers', 'completed'].forEach(function (kind) {
+          (p[kind] || []).forEach(function (id) {
+            if (BB.user[kind].indexOf(id) === -1) { BB.user[kind].push(id); added++; }
+          });
+        });
+        (p.checklist || []).forEach(function (c) {
+          if (!BB.user.checklist.some(function (x) { return String(x.id) === String(c.id); })) {
+            BB.user.checklist.push({ id: c.id, text: c.text, subject: c.subject || null, done: !!c.done, createdAt: c.createdAt || Date.now() });
+            added++;
+          }
+        });
+        try { localStorage.setItem('bb_user_v1', JSON.stringify(BB.user)); } catch (e) { }
+        BB.onChange(function () { });
+        msg('Cloud progress merged - ' + added + ' new record(s).', 100);
+        U.toast('Downloaded from the cloud', added + ' new record(s) added.', 'success');
+        pull.disabled = false;
+        render();
+      }).catch(function (e) {
+        msg('Download failed: ' + e.message, 0);
+        pull.disabled = false;
+      });
+    });
   }
 
   /* ---------------- helpers ---------------- */

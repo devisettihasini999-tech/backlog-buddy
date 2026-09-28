@@ -161,6 +161,7 @@
       '<div class="header-actions">' +
       '<button class="icon-btn" data-search-open aria-label="Search">' + icon('search', 18) + '</button>' +
       '<button class="icon-btn" data-theme-toggle aria-label="Toggle theme"></button>' +
+      '<span id="auth-area"></span>' +
       '<a class="btn btn-primary btn-sm" href="papers.html" style="margin-left:4px">' + icon('download', 15) + '<span>Get Papers</span></a>' +
       '<button class="icon-btn nav-toggle" data-nav-toggle aria-label="Menu">' + icon('menu', 18) + '</button>' +
       '</div></div>';
@@ -183,6 +184,87 @@
     if (navBtn) navBtn.addEventListener('click', function () { drawer.classList.toggle('open'); });
     var sBtn = qs('[data-search-open]');
     if (sBtn) sBtn.addEventListener('click', openSearch);
+    renderAuthArea();
+    document.addEventListener('bb:api-ready', renderAuthArea);
+    if (window.BBAPI) window.BBAPI.onChange(renderAuthArea);
+  }
+
+  /* ------------------------- auth area (header) ------------------------- */
+  function renderAuthArea() {
+    var host = qs('#auth-area');
+    if (!host) return;
+    var api = window.BBAPI;
+    if (!api || !api.enabled()) { host.innerHTML = ''; return; }
+
+    var u = api.user();
+    if (u) {
+      host.innerHTML = '<span class="badge badge-green" style="gap:7px;padding:7px 12px" title="' + esc(u.email) + '">' +
+        icon('circleCheck', 14) + esc((u.full_name || u.email || '').split('@')[0]) + '</span>' +
+        '<button class="btn btn-ghost btn-sm" id="signout-btn">Sign out</button>';
+      var out = qs('#signout-btn');
+      if (out) out.addEventListener('click', function () {
+        api.logout();
+        toast('Signed out', 'Your local data is untouched.', 'info');
+      });
+      return;
+    }
+    host.innerHTML = '<button class="btn btn-outline btn-sm" id="signin-btn">' + icon('lock', 15) + '<span>Sign in</span></button>';
+    var btn = qs('#signin-btn');
+    if (btn) btn.addEventListener('click', openAuthModal);
+  }
+
+  function openAuthModal() {
+    modal({
+      title: 'Backlog Buddy account', icon: 'lock',
+      body: '<div class="tabs" style="margin-bottom:16px">' +
+        '<button class="tab active" data-tab="login">Sign in</button>' +
+        '<button class="tab" data-tab="signup">Create account</button>' +
+        '</div>' +
+        '<div class="stack">' +
+        '<label class="field" id="f-name" style="display:none"><span>Full name</span><input type="text" id="a-name" placeholder="Your name" autocomplete="name"></label>' +
+        '<label class="field"><span>Email</span><input type="email" id="a-email" placeholder="you@college.edu" autocomplete="email"></label>' +
+        '<label class="field"><span>Password</span><input type="password" id="a-pass" placeholder="At least 8 characters" autocomplete="current-password"></label>' +
+        '<div class="callout warn hidden" id="a-error"></div>' +
+        '<button class="btn btn-primary btn-block" id="a-submit">Sign in</button>' +
+        '<p class="tiny muted center">Your account, saved subjects and bookmarks then sync across devices through the Backlog Buddy API.</p>' +
+        '</div>',
+      actions: '<button class="btn btn-outline btn-sm" data-close>Close</button>',
+      onMount: function (el, close) {
+        var mode = 'login';
+        function setMode(m) {
+          mode = m;
+          qa('[data-tab]', el).forEach(function (t) { t.classList.toggle('active', t.getAttribute('data-tab') === m); });
+          qs('#f-name', el).style.display = m === 'signup' ? 'block' : 'none';
+          qs('#a-submit', el).textContent = m === 'signup' ? 'Create account' : 'Sign in';
+          qs('#a-error', el).classList.add('hidden');
+        }
+        qa('[data-tab]', el).forEach(function (t) { t.addEventListener('click', function () { setMode(t.getAttribute('data-tab')); }); });
+
+        function fail(msg) {
+          var box = qs('#a-error', el);
+          box.classList.remove('hidden');
+          box.innerHTML = icon('alert', 20) + '<div><b>Could not continue</b><p>' + esc(msg) + '</p></div>';
+        }
+        qs('#a-submit', el).addEventListener('click', function () {
+          var email = qs('#a-email', el).value.trim();
+          var pass = qs('#a-pass', el).value;
+          var name = qs('#a-name', el).value.trim();
+          var btn = qs('#a-submit', el);
+          if (!email || !pass) { fail('Enter your email and password.'); return; }
+          btn.disabled = true;
+          btn.innerHTML = '<span class="spinner"></span>';
+          var p = mode === 'signup' ? window.BBAPI.signup(email, pass, name) : window.BBAPI.login(email, pass);
+          p.then(function () {
+            close();
+            toast('Welcome' + (name ? ', ' + name.split(' ')[0] : '') + '!', 'You are signed in.', 'success');
+          }).catch(function (e) {
+            btn.disabled = false;
+            btn.textContent = mode === 'signup' ? 'Create account' : 'Sign in';
+            fail(e.message || 'Something went wrong.');
+          });
+        });
+      }
+    });
   }
 
   function renderFooter() {

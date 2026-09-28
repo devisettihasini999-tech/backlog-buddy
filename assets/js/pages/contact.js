@@ -51,13 +51,22 @@
         code: U.qs('#c-code').value.trim(), message: msg,
         createdAt: new Date().toISOString()
       };
+      var saved = false;
       try {
         var all = JSON.parse(localStorage.getItem('bb_feedback_v1') || '[]');
         all.push(record);
         localStorage.setItem('bb_feedback_v1', JSON.stringify(all));
+        saved = true;
       } catch (err) { /* storage unavailable */ }
 
-      status.textContent = 'Thanks ' + name.split(' ')[0] + '! Your message has been recorded.';
+      // Send to the backend as well when it is reachable
+      if (window.BBAPI) {
+        window.BBAPI.feedback(record).then(function (res) {
+          if (res && res.ok) U.toast('Message received', 'Stored on the Backlog Buddy server.', 'success');
+        }).catch(function () { /* keep the local copy */ });
+      }
+
+      status.textContent = 'Thanks ' + name.split(' ')[0] + '! Your message has been recorded' + (saved ? ' on this device' : '') + '.';
       status.style.color = 'var(--success)';
       U.toast('Message sent', 'Reference ' + record.id, 'success');
       U.qs('#contact-form').reset();

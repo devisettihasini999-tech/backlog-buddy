@@ -1,0 +1,76 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Length 0 >>
+stream
+
+endstream
+endobj
+4 0 obj
+<< /Length 2739 >>
+stream
+BT /F2 15 Tf 0.1 0.13 0.2 rg 248.89 785.89 Td (Backlog Buddy) Tj ET
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 758.59 Td (Demonstration question paper generated from available previous papers - for practice only) Tj ET
+0.78 0.81 0.87 RG 1 w 56 741.81 m 539.28 741.81 l S
+BT /F2 11.5 Tf 0.1 0.13 0.2 rg 194.14 727.81 Td (B.Tech. I Semester Examination, 2026) Tj ET
+BT /F1 9.5 Tf 0.1 0.13 0.2 rg 214.51 711.48 Td (Regulation: R20 | University: JNTUK) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 689.99 Td (Design & Analysis of Algorithms \(21CS51\)) Tj ET
+BT /F2 10 Tf 0.1 0.13 0.2 rg 56.00 667.24 Td (Time: 3 hours Max. Marks: 60) Tj ET
+BT /F1 9.5 Tf 0.1 0.13 0.2 rg 56.00 653.04 Td (Answer one question from each unit. All questions carry equal marks.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 631.55 Td (UNIT - 1 [Introduction & Asymptotic Analysis]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 608.80 Td (a\) Solve the given recurrence relation using the master theorem.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 590.89 Td (b\) Explain asymptotic notations with examples.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 566.98 Td (UNIT - 2 [Divide & Conquer and Greedy Methods]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 544.23 Td (a\) Solve the fractional knapsack problem using the greedy method.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 526.32 Td (b\) Solve the fractional knapsack problem using the greedy method.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 502.41 Td (UNIT - 3 [Dynamic Programming]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 479.66 Td (a\) Solve the zero one knapsack problem using dynamic programming.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 461.75 Td (b\) Find the optimal binary search tree for the given keys and probabilities.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 437.84 Td (UNIT - 4 [Backtracking & Branch and Bound]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 415.09 Td (a\) Explain the N queens problem using backtracking.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 397.18 Td (b\) Differentiate between backtracking and branch and bound.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 373.27 Td (UNIT - 5 [NP-Hard and NP-Complete Problems]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 350.52 Td (a\) Explain NP hard and NP complete classes with examples.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 332.61 Td (b\) Explain NP hard and NP complete classes with examples.) Tj ET
+0.78 0.81 0.87 RG 1 w 56 308.70 m 539.28 308.70 l S
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 294.70 Td (Backlog Buddy - previous question paper library. This paper is reconstructed from previous examination) Tj ET
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 281.92 Td (papers available on the platform and is intended for practice only.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R] /Count 2 >>
+endobj
+8 0 obj
+<< /Title (21CS51 Design & Analysis of Algorithms 2026) /Author (Backlog Buddy) /Producer (Backlog Buddy PDF Engine) >>
+endobj
+9 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000106 00000 n 
+0000000208 00000 n 
+0000000257 00000 n 
+0000003048 00000 n 
+0000003190 00000 n 
+0000003332 00000 n 
+0000003395 00000 n 
+0000003530 00000 n 
+trailer
+<< /Size 10 /Root 9 0 R /Info 8 0 R >>
+startxref
+3579
+%%EOF

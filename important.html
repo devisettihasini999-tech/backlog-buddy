@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Important Questions - Backlog Buddy</title>
+<meta name="description" content="Very important, frequently asked, repeated and practice questions for engineering backlog subjects, grouped by branch, semester and unit.">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header id="site-header" class="site-header"></header>
+
+<main class="container">
+  <div class="page-head">
+    <div class="crumbs"><a href="index.html">Home</a><span class="sep">/</span><span>Important Questions</span></div>
+    <span class="eyebrow">Prioritised revision</span>
+    <h1 class="mt-2">Important questions by subject</h1>
+    <p class="lead">Questions selected from the previous papers available on Backlog Buddy and labelled by how often they appear. Use them to plan revision - always cover the complete syllabus as well.</p>
+  </div>
+
+  <section class="section-sm">
+    <div class="callout warn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M12 4l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+      <div><b>Recommendations, not predictions</b>
+      <p>Labels such as Very Important, Frequently Asked, Repeated Question, Important Topic and Practice Question describe the history of previous papers on this platform. No question is guaranteed to appear in your examination.</p></div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="filter-bar">
+      <label class="field fld-full"><span>Search questions or topics</span>
+        <input type="search" id="q" placeholder="e.g. quick sort, normalisation, page replacement..."></label>
+      <label class="field"><span>Branch</span><select id="f-branch"><option value="">All branches</option></select></label>
+      <label class="field"><span>Semester</span><select id="f-sem"><option value="">All semesters</option></select></label>
+      <label class="field"><span>Subject</span><select id="f-subject"><option value="">All subjects</option></select></label>
+      <label class="field"><span>Label</span><select id="f-tag">
+        <option value="">All labels</option>
+        <option value="vi">Very Important</option>
+        <option value="fa">Frequently Asked</option>
+        <option value="rq">Repeated Question</option>
+        <option value="it">Important Topic</option>
+        <option value="pq">Practice Question</option>
+      </select></label>
+      <div class="field"><span>&nbsp;</span>
+        <label class="checkbox"><input type="checkbox" id="f-bm"><span>Only bookmarked</span></label></div>
+    </div>
+    <div class="filter-summary">
+      <span class="badge badge-blue" id="count-badge">0 questions</span>
+      <span class="spacer"></span>
+      <button class="btn btn-ghost btn-sm" id="reset">Reset</button>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="grid grid-4" id="summary-grid" style="margin-bottom:20px"></div>
+    <div class="stack" id="q-list"></div>
+  </section>
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+<div id="toasts"></div>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/pages/important.js"></script>
+</body>
+</html>

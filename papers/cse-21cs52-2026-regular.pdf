@@ -1,0 +1,76 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Length 0 >>
+stream
+
+endstream
+endobj
+4 0 obj
+<< /Length 2697 >>
+stream
+BT /F2 15 Tf 0.1 0.13 0.2 rg 248.89 785.89 Td (Backlog Buddy) Tj ET
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 758.59 Td (Demonstration question paper generated from available previous papers - for practice only) Tj ET
+0.78 0.81 0.87 RG 1 w 56 741.81 m 539.28 741.81 l S
+BT /F2 11.5 Tf 0.1 0.13 0.2 rg 194.14 727.81 Td (B.Tech. I Semester Examination, 2026) Tj ET
+BT /F1 9.5 Tf 0.1 0.13 0.2 rg 214.51 711.48 Td (Regulation: R20 | University: JNTUK) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 689.99 Td (Computer Networks \(21CS52\)) Tj ET
+BT /F2 10 Tf 0.1 0.13 0.2 rg 56.00 667.24 Td (Time: 3 hours Max. Marks: 60) Tj ET
+BT /F1 9.5 Tf 0.1 0.13 0.2 rg 56.00 653.04 Td (Answer one question from each unit. All questions carry equal marks.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 631.55 Td (UNIT - 1 [Introduction, Switching & Physical Layer]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 608.80 Td (a\) Compare the OSI and TCP/IP reference models.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 590.89 Td (b\) Explain the different switching techniques with diagrams.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 566.98 Td (UNIT - 2 [Data Link Layer & MAC Protocols]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 544.23 Td (a\) Explain the working of CSMA/CD protocol.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 526.32 Td (b\) Explain error detection and correction using CRC and Hamming code.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 502.41 Td (UNIT - 3 [Network Layer, Addressing & Routing]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 479.66 Td (a\) Perform subnetting for the given IP address requirements.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 461.75 Td (b\) Explain distance vector and link state routing algorithms.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 437.84 Td (UNIT - 4 [Transport Layer & Congestion Control]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 415.09 Td (a\) Compare TCP and UDP with their header formats.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 397.18 Td (b\) Explain TCP congestion control mechanisms.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 373.27 Td (UNIT - 5 [Application Layer Protocols & Security]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 350.52 Td (a\) Explain the DNS hierarchy and name resolution process.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 332.61 Td (b\) Explain the DNS hierarchy and name resolution process.) Tj ET
+0.78 0.81 0.87 RG 1 w 56 308.70 m 539.28 308.70 l S
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 294.70 Td (Backlog Buddy - previous question paper library. This paper is reconstructed from previous examination) Tj ET
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 281.92 Td (papers available on the platform and is intended for practice only.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R] /Count 2 >>
+endobj
+8 0 obj
+<< /Title (21CS52 Computer Networks 2026) /Author (Backlog Buddy) /Producer (Backlog Buddy PDF Engine) >>
+endobj
+9 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000106 00000 n 
+0000000208 00000 n 
+0000000257 00000 n 
+0000003006 00000 n 
+0000003148 00000 n 
+0000003290 00000 n 
+0000003353 00000 n 
+0000003474 00000 n 
+trailer
+<< /Size 10 /Root 9 0 R /Info 8 0 R >>
+startxref
+3523
+%%EOF

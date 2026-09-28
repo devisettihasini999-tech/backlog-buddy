@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About - Backlog Buddy</title>
+<meta name="description" content="Backlog Buddy is a student-built platform that organises engineering backlog preparation: previous papers, important questions, repeated topics, model papers and study resources.">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header id="site-header" class="site-header"></header>
+
+<main class="container">
+  <div class="page-head">
+    <div class="crumbs"><a href="index.html">Home</a><span class="sep">/</span><span>About</span></div>
+    <span class="eyebrow">About the platform</span>
+    <h1 class="mt-2">Built by students who have been there</h1>
+    <p class="lead">Backlog Buddy started with a simple problem: preparing for a backlog exam means hunting for previous papers across WhatsApp groups, seniors and notice boards, and then guessing which units matter most. This platform puts all of it in one place, organised by branch, semester and subject.</p>
+  </div>
+
+  <section class="section-sm">
+    <div class="grid grid-3">
+      <div class="card card-hover reveal"><div class="card-ico"><span data-icon="target" data-size="21"></span></div><h3 class="card-title mt-2">Focused, not exhaustive</h3><p class="small">We do not try to replace your syllabus or college. We help you find what to study first when time is short.</p></div>
+      <div class="card card-hover reveal"><div class="card-ico green"><span data-icon="shield" data-size="21"></span></div><h3 class="card-title mt-2">Honest labelling</h3><p class="small">Every important question carries a label that describes its history in previous papers. Nothing is presented as a guaranteed exam question.</p></div>
+      <div class="card card-hover reveal"><div class="card-ico purple"><span data-icon="users" data-size="21"></span></div><h3 class="card-title mt-2">Community driven</h3><p class="small">Papers and notes are added through the admin panel, so the library grows as more students contribute material.</p></div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="card" style="padding:28px">
+      <span class="eyebrow">What is inside</span>
+      <h2 class="mt-2">The Backlog Buddy data model</h2>
+      <p class="lead mt-2">Content is structured so that new colleges, universities, regulations, branches, semesters and subjects can be added at any time without changing the application.</p>
+      <div class="grid grid-2 mt-3">
+        <div>
+          <div class="kv"><span class="k">Branch</span><span class="v">CSE, AI &amp; ML, Data Science, ECE, EEE, Mechanical, Civil, IT, Other</span></div>
+          <div class="kv"><span class="k">Semester</span><span class="v">1st to 8th semester</span></div>
+          <div class="kv"><span class="k">Subject</span><span class="v">Code, name, credits, regulation, university, five units</span></div>
+          <div class="kv"><span class="k">Question papers</span><span class="v">Year, exam type, regulation, file, upload date</span></div>
+          <div class="kv"><span class="k">Questions</span><span class="v">Unit, labels, topic, years seen</span></div>
+          <div class="kv"><span class="k">Study materials</span><span class="v">Notes, syllabus, formula sheets, model papers, videos</span></div>
+        </div>
+        <div class="callout">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+          <div>
+            <b>Where the demo data comes from</b>
+            <p>The catalogue currently ships with a generated demo dataset covering nine branches and eight semesters, including papers, questions and study materials, so every screen can be explored end to end. Real papers can replace it at any time through the admin panel.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="card" style="padding:28px">
+      <span class="eyebrow">Responsible use</span>
+      <h2 class="mt-2">Our promise about exam questions</h2>
+      <div class="list-check mt-3">
+        <li><span data-icon="circleCheck" data-size="18"></span>We analyse the papers available on the platform and count how often a topic appears.</li>
+        <li><span data-icon="circleCheck" data-size="18"></span>We label questions as Very Important, Frequently Asked, Repeated Question, Important Topic or Practice Question based on that history.</li>
+        <li><span data-icon="circleCheck" data-size="18"></span>We never claim that a specific question will appear in your examination.</li>
+        <li><span data-icon="circleCheck" data-size="18"></span>We always recommend covering the complete syllabus and following your college materials.</li>
+      </div>
+      <p class="small muted mt-3">Papers shown on Backlog Buddy are reconstructed for practice from previous examination papers. Always verify the regulation, syllabus and marks scheme with your department before relying on any paper.</p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="row row-wrap">
+      <div style="flex:1;min-width:260px">
+        <h2>Ready to clear that backlog?</h2>
+        <p class="lead">Pick your branch and semester, open the subject and start with the latest paper.</p>
+      </div>
+      <div class="row row-wrap">
+        <a class="btn btn-primary btn-lg" href="subjects.html">Explore subjects</a>
+        <a class="btn btn-outline btn-lg" href="contact.html">Send feedback</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+<div id="toasts"></div>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/pages/about.js"></script>
+</body>
+</html>

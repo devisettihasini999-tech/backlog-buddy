@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subject - Backlog Buddy</title>
+<meta name="description" content="Previous year question papers, important questions, unit-wise important topics, model papers and study material for engineering subjects on Backlog Buddy.">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header id="site-header" class="site-header"></header>
+
+<main class="container" id="page">
+  <div class="page-head">
+    <div class="crumbs" id="crumbs"></div>
+    <div id="subject-head"></div>
+  </div>
+
+  <nav class="tabs mt-3" id="section-tabs"></nav>
+
+  <!-- 1. Previous year question papers -->
+  <section class="section-sm" id="papers">
+    <div class="row row-wrap" style="margin-bottom:16px">
+      <div><span class="eyebrow">Section 1</span><h2 class="mt-2">Previous year question papers</h2></div>
+      <span class="spacer"></span>
+      <button class="btn btn-outline btn-sm" id="download-all">Download all papers</button>
+    </div>
+    <div class="grid grid-3" id="paper-grid"></div>
+  </section>
+
+  <!-- 2. Important questions -->
+  <section class="section-sm" id="important">
+    <div class="row row-wrap" style="margin-bottom:16px">
+      <div><span class="eyebrow">Section 2</span><h2 class="mt-2">Important questions</h2></div>
+    </div>
+    <div class="callout warn" style="margin-bottom:16px">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M12 4l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+      <div><b>Preparation recommendations, not predictions</b>
+      <p>These questions are selected from the previous question papers available on Backlog Buddy. They help you prioritise revision, but no question is guaranteed to appear in your examination.</p></div>
+    </div>
+    <div class="tag-cloud" id="imp-filters" style="margin-bottom:14px"></div>
+    <div class="stack" id="imp-list"></div>
+  </section>
+
+  <!-- 3. Frequently asked questions -->
+  <section class="section-sm" id="faq">
+    <div class="row row-wrap" style="margin-bottom:16px">
+      <div><span class="eyebrow">Section 3</span><h2 class="mt-2">Frequently asked questions</h2></div>
+    </div>
+    <div class="stack" id="faq-list"></div>
+  </section>
+
+  <!-- 4. Repeated topics analysis -->
+  <section class="section-sm" id="repeated">
+    <div class="row row-wrap" style="margin-bottom:16px">
+      <div><span class="eyebrow">Section 4</span><h2 class="mt-2">Frequently repeated questions &amp; topics</h2></div>
+      <span class="spacer"></span>
+      <span class="badge badge-purple">Live count from available papers</span>
+    </div>
+    <div id="repeated-body"></div>
+  </section>
+
+  <!-- 5. Unit wise -->
+  <section class="section-sm" id="units">
+    <div class="row row-wrap" style="margin-bottom:16px">
+      <div><span class="eyebrow">Section 5</span><h2 class="mt-2">Unit-wise important questions</h2></div>
+    </div>
+    <div class="acc" id="unit-acc"></div>
+  </section>
+
+  <!-- 6. Model papers -->
+  <section class="section-sm" id="model">
+    <div class="row row-wrap" style="margin-bottom:16px">
+      <div><span class="eyebrow">Section 6</span><h2 class="mt-2">Model question papers</h2></div>
+    </div>
+    <div class="grid grid-2" id="model-grid"></div>
+  </section>
+
+  <!-- 7. Downloads -->
+  <section class="section-sm" id="downloads">
+    <div class="row row-wrap" style="margin-bottom:16px">
+      <div><span class="eyebrow">Section 7</span><h2 class="mt-2">Question paper downloads</h2></div>
+    </div>
+    <div class="table-wrap table-scroll" id="download-table"></div>
+  </section>
+
+  <!-- 8. Study materials -->
+  <section class="section-sm" id="materials">
+    <div class="row row-wrap" style="margin-bottom:16px">
+      <div><span class="eyebrow">Section 8</span><h2 class="mt-2">Study materials</h2></div>
+    </div>
+    <div class="grid grid-3" id="material-grid"></div>
+  </section>
+
+  <!-- 9. Tips -->
+  <section class="section-sm" id="tips">
+    <div class="row row-wrap" style="margin-bottom:16px">
+      <div><span class="eyebrow">Section 9</span><h2 class="mt-2">Exam preparation tips</h2></div>
+    </div>
+    <div class="grid grid-2" id="tips-grid"></div>
+  </section>
+</main>
+
+<footer id="site-footer" class="site-footer"></footer>
+<div id="toasts"></div>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/pdf.js"></script>
+<script src="assets/js/pages/subject.js"></script>
+</body>
+</html>

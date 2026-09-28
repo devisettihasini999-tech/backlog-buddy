@@ -1,0 +1,76 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Length 0 >>
+stream
+
+endstream
+endobj
+4 0 obj
+<< /Length 2657 >>
+stream
+BT /F2 15 Tf 0.1 0.13 0.2 rg 248.89 785.89 Td (Backlog Buddy) Tj ET
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 758.59 Td (Demonstration question paper generated from available previous papers - for practice only) Tj ET
+0.78 0.81 0.87 RG 1 w 56 741.81 m 539.28 741.81 l S
+BT /F2 11.5 Tf 0.1 0.13 0.2 rg 194.14 727.81 Td (B.Tech. I Semester Examination, 2024) Tj ET
+BT /F1 9.5 Tf 0.1 0.13 0.2 rg 186.01 711.48 Td (Regulation: R20 | University: Andhra University) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 689.99 Td (Digital Design \(21EC32\)) Tj ET
+BT /F2 10 Tf 0.1 0.13 0.2 rg 56.00 667.24 Td (Time: 3 hours Max. Marks: 60) Tj ET
+BT /F1 9.5 Tf 0.1 0.13 0.2 rg 56.00 653.04 Td (Answer one question from each unit. All questions carry equal marks.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 631.55 Td (UNIT - 1 [Number Systems & Boolean Algebra]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 608.80 Td (a\) Simplify the given Boolean function using a Karnaugh map.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 590.89 Td (b\) Explain the theorems of Boolean algebra with examples.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 566.98 Td (UNIT - 2 [Combinational Logic Design]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 544.23 Td (a\) Design a 4-bit binary adder using full adders.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 526.32 Td (b\) Implement the given Boolean function using an 8:1 multiplexer.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 502.41 Td (UNIT - 3 [Sequential Logic Design]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 479.66 Td (a\) Explain the working of SR, JK, D and T flip flops.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 461.75 Td (b\) Explain the working of SR, JK, D and T flip flops.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 437.84 Td (UNIT - 4 [Counters, Registers & State Machines]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 415.09 Td (a\) Explain the difference between asynchronous and synchronous counters.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 397.18 Td (b\) Design a mod-10 counter using flip flops.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 373.27 Td (UNIT - 5 [Logic Families, PLDs & FPGA]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 350.52 Td (a\) Compare TTL and CMOS logic families.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 332.61 Td (b\) Explain PLA, PAL and FPGA architectures.) Tj ET
+0.78 0.81 0.87 RG 1 w 56 308.70 m 539.28 308.70 l S
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 294.70 Td (Backlog Buddy - previous question paper library. This paper is reconstructed from previous examination) Tj ET
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 281.92 Td (papers available on the platform and is intended for practice only.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R] /Count 2 >>
+endobj
+8 0 obj
+<< /Title (21EC32 Digital Design 2024) /Author (Backlog Buddy) /Producer (Backlog Buddy PDF Engine) >>
+endobj
+9 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000106 00000 n 
+0000000208 00000 n 
+0000000257 00000 n 
+0000002966 00000 n 
+0000003108 00000 n 
+0000003250 00000 n 
+0000003313 00000 n 
+0000003431 00000 n 
+trailer
+<< /Size 10 /Root 9 0 R /Info 8 0 R >>
+startxref
+3480
+%%EOF

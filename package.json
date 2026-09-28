@@ -1,0 +1,13 @@
+{
+  "name": "backlog-buddy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backlog Buddy - Prepare Smart. Clear Your Backlogs. Subject-wise previous year question papers, important questions and study resources for engineering students.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js 3000",
+    "build:data": "node scripts/build-demo-data.js",
+    "build:pdfs": "node scripts/build-demo-data.js"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,77 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Length 0 >>
+stream
+
+endstream
+endobj
+4 0 obj
+<< /Length 2848 >>
+stream
+BT /F2 15 Tf 0.1 0.13 0.2 rg 248.89 785.89 Td (Backlog Buddy) Tj ET
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 758.59 Td (Demonstration question paper generated from available previous papers - for practice only) Tj ET
+0.78 0.81 0.87 RG 1 w 56 741.81 m 539.28 741.81 l S
+BT /F2 11.5 Tf 0.1 0.13 0.2 rg 191.26 727.81 Td (B.Tech. II Semester Examination, 2025) Tj ET
+BT /F1 9.5 Tf 0.1 0.13 0.2 rg 214.51 711.48 Td (Regulation: R20 | University: JNTUK) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 689.99 Td (Operating Systems \(21CS41\)) Tj ET
+BT /F2 10 Tf 0.1 0.13 0.2 rg 56.00 667.24 Td (Time: 3 hours Max. Marks: 60) Tj ET
+BT /F1 9.5 Tf 0.1 0.13 0.2 rg 56.00 653.04 Td (Answer one question from each unit. All questions carry equal marks.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 631.55 Td (UNIT - 1 [Operating System Overview & Structures]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 608.80 Td (a\) Explain the functions of an operating system and draw the layered structure.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 590.89 Td (b\) Compare long term, medium term and short term schedulers.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 566.98 Td (UNIT - 2 [Process Management & Scheduling]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 544.23 Td (a\) Solve the given set of processes using FCFS, SJF and Round Robin and compare average) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 529.32 Td (waiting time.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 511.41 Td (b\) Explain the inter process communication mechanisms.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 487.50 Td (UNIT - 3 [Concurrency, Synchronization & Deadlocks]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 464.75 Td (a\) Explain the producer consumer problem using semaphores.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 446.84 Td (b\) What is a race condition? Explain with an example.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 422.93 Td (UNIT - 4 [Memory Management & Virtual Memory]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 400.18 Td (a\) Compare paging and segmentation.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 382.27 Td (b\) Explain LRU and FIFO page replacement algorithms with an example.) Tj ET
+BT /F2 12.5 Tf 0.1 0.13 0.2 rg 56.00 358.36 Td (UNIT - 5 [File Systems, I/O & Protection]) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 335.61 Td (a\) Compare contiguous, linked and indexed file allocation methods.) Tj ET
+BT /F1 10.5 Tf 0.1 0.13 0.2 rg 56.00 317.70 Td (b\) Explain disk scheduling algorithms FCFS, SCAN and C-SCAN with an example.) Tj ET
+0.78 0.81 0.87 RG 1 w 56 293.79 m 539.28 293.79 l S
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 279.79 Td (Backlog Buddy - previous question paper library. This paper is reconstructed from previous examination) Tj ET
+BT /F1 9 Tf 0.35 0.4 0.48 rg 56.00 267.01 Td (papers available on the platform and is intended for practice only.) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [5 0 R 6 0 R] /Count 2 >>
+endobj
+8 0 obj
+<< /Title (21CS41 Operating Systems 2025) /Author (Backlog Buddy) /Producer (Backlog Buddy PDF Engine) >>
+endobj
+9 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000106 00000 n 
+0000000208 00000 n 
+0000000257 00000 n 
+0000003157 00000 n 
+0000003299 00000 n 
+0000003441 00000 n 
+0000003504 00000 n 
+0000003625 00000 n 
+trailer
+<< /Size 10 /Root 9 0 R /Info 8 0 R >>
+startxref
+3674
+%%EOF

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found - Backlog Buddy</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header id="site-header" class="site-header"></header>
+<main class="container">
+  <div class="section" style="max-width:620px;margin:0 auto">
+    <div class="empty">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="7"/><path d="M20 20l-3.6-3.6M8 10h4"/></svg>
+      <h1 style="font-size:2.2rem">404 - page not found</h1>
+      <p>The page you are looking for does not exist. It may have been moved, or the subject or paper may have been removed.</p>
+      <div class="row row-wrap" style="justify-content:center">
+        <a class="btn btn-primary" href="index.html">Back to home</a>
+        <a class="btn btn-outline" href="subjects.html">Browse subjects</a>
+        <a class="btn btn-ghost" href="papers.html">Question papers</a>
+      </div>
+    </div>
+  </div>
+</main>
+<footer id="site-footer" class="site-footer"></footer>
+<div id="toasts"></div>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/ui.js"></script>
+<script>
+  (function () {
+    var U = window.BBUI;
+    U.renderHeader('');
+    U.renderFooter();
+  })();
+</script>
+</body>
+</html>

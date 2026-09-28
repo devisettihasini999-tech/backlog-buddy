@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1998 >>
+stream
+BT 50 800 Td 20 TL /F2 15 Tf (Sample End Semester Question Paper - 2024) Tj T* (Subject: Programming in C   |   Code: CS101   |   Semester: 1) Tj T* (Branch: CSE   |   Regulation: R20 \(sample\)   |   Time: 3 Hours   |   Max Marks: 90) Tj T* ET
+BT 50 710 Td 14 TL /F1 9.5 Tf (This is a SAMPLE question paper generated for Backlog Buddy \(demo/testing data\).) Tj T* (It is not an official university paper and is provided to demonstrate the platform.) Tj T* ET
+BT 50 658 Td 16 TL /F2 12 Tf (PART A - Short questions  \(10 x 1 = 10 Marks\)) Tj T* ET
+BT 50 616 Td 15 TL /F1 10.5 Tf (1. What is a pointer?) Tj T* (2. State the difference between call by value and call by reference.) Tj T* (3. What is a structure?) Tj T* (4. Name one string library function.) Tj T* (5. What is recursion?) Tj T* (6. What is a header file?) Tj T* (7. Name the parts of a C program.) Tj T* (8. What is a compiler?) Tj T* (9. State two integer data types in C.) Tj T* (10. What does the sizeof operator do?) Tj T* ET
+BT 50 441 Td 16 TL /F2 12 Tf (PART B - Long questions  \(10 x 8 = 80 Marks\)) Tj T* ET
+BT 50 399 Td 15 TL /F1 10.5 Tf (1. Explain file handling in C with a complete program.) Tj T* (2. Write recursive programs for factorial and Fibonacci with a complexity discussion.) Tj T* (3. Explain command line arguments in C with a program.) Tj T* (4. Explain the structure of a C program with a complete example.) Tj T* (5. Explain decision making and loops in C with example programs.) Tj T* (6. Explain functions in C: prototypes, call by value and recursion with programs.) Tj T* (7. Explain pointers: declaration, arithmetic and pointer to array with programs.) Tj T* (8. Explain strings in C using character arrays and string functions.) Tj T* (9. Explain structures and unions with example programs.) Tj T* (10. Explain one and two dimensional arrays with programs \(search, sort\).) Tj T* ET
+BT 50 224 Td 12 TL /F1 8.5 Tf (Backlog Buddy - backlogbuddy demo | Prepare Smart. Clear Your Backlogs.) Tj T* ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2446
+%%EOF

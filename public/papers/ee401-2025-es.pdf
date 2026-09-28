@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1711 >>
+stream
+BT 50 800 Td 20 TL /F2 15 Tf (Sample End Semester Question Paper - 2025) Tj T* (Subject: Power Electronics   |   Code: EE401   |   Semester: 4) Tj T* (Branch: EEE   |   Regulation: R20 \(sample\)   |   Time: 3 Hours   |   Max Marks: 88) Tj T* ET
+BT 50 710 Td 14 TL /F1 9.5 Tf (This is a SAMPLE question paper generated for Backlog Buddy \(demo/testing data\).) Tj T* (It is not an official university paper and is provided to demonstrate the platform.) Tj T* ET
+BT 50 658 Td 16 TL /F2 12 Tf (PART A - Short questions  \(10 x 1 = 10 Marks\)) Tj T* ET
+BT 50 616 Td 15 TL /F1 10.5 Tf (1. Name one power semiconductor device.) Tj T* (2. What is a snubber circuit?) Tj T* (3. Define THD.) Tj T* (4. What is a freewheeling diode?) Tj T* (5. Name two types of choppers.) Tj T* (6. What is a thyristor?) Tj T* (7. Name two types of rectifiers.) Tj T* (8. What is an inverter?) Tj T* (9. Define duty cycle of a chopper.) Tj T* (10. What is an AC voltage controller?) Tj T* ET
+BT 50 441 Td 16 TL /F2 12 Tf (PART B - Long questions  \(6 x 13 = 78 Marks\)) Tj T* ET
+BT 50 399 Td 15 TL /F1 10.5 Tf (1. Explain the construction and working of an SCR with V-I characteristics.) Tj T* (2. Explain single-phase half-wave and full-wave rectifiers with waveforms and calculations.) Tj T* (3. Explain single-phase full-bridge inverter operation with waveforms.) Tj T* (4. Explain step-up and step-down choppers with waveforms and calculations.) Tj T* (5. Explain single-phase AC voltage controllers: phase control and ON-OFF control.) Tj T* (6. Explain power semiconductor devices: diodes, MOSFETs and IGBTs.) Tj T* ET
+BT 50 284 Td 12 TL /F1 8.5 Tf (Backlog Buddy - backlogbuddy demo | Prepare Smart. Clear Your Backlogs.) Tj T* ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2159
+%%EOF

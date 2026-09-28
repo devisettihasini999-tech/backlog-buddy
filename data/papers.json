@@ -1,0 +1,873 @@
+{
+  "subjects": {
+    "CS301": {
+      "branch": "b-cse", "code": "CS301", "name": "Data Structures", "sem": 3,
+      "partA": [
+        "Define data structure. Give two examples of linear data structures.",
+        "State the time complexity of linear search in an array.",
+        "What is a stack? Name its two basic operations.",
+        "Convert the infix expression A + B * C into postfix form.",
+        "State one application of a queue.",
+        "What is a linked list? State one advantage over an array.",
+        "State the base case and the recursive case in recursion.",
+        "What is the time complexity of binary search?",
+        "State the worst-case time complexity of quicksort.",
+        "What is a balanced binary tree? Name its balance condition."
+      ],
+      "partB": [
+        "Explain stack operations push, pop and peek with algorithms. Illustrate with an example.",
+        "Explain infix to postfix conversion with a complete algorithm and a worked example.",
+        "Explain insertion and deletion in a singly linked list at the beginning, middle and end with diagrams.",
+        "Explain merge sort with a step-by-step diagram and analyse its time complexity.",
+        "Explain Binary Search Trees: insertion, deletion and search algorithms.",
+        "Explain AVL tree rotations LL, RR, LR and RL with examples.",
+        "Explain circular queue with insertion and deletion algorithms. Discuss applications.",
+        "Explain graph representations (adjacency matrix and adjacency list). Write BFS and DFS algorithms.",
+        "Compare arrays and linked lists. Discuss insertion complexity in each with examples.",
+        "Explain hashing using open addressing and separate chaining with an example."
+      ]
+    },
+    "CS302": {
+      "branch": "b-cse", "code": "CS302", "name": "Database Management Systems", "sem": 3,
+      "partA": [
+        "Define DBMS. State two advantages over file-based systems.",
+        "Name the three schema levels of the ANSI-SPARC architecture.",
+        "What is an E-R diagram? Name its three basic symbols.",
+        "State one difference between DDL and DML.",
+        "What does the WHERE clause do in SQL?",
+        "Define a primary key.",
+        "State one requirement of 2NF.",
+        "Name the four properties of ACID.",
+        "What is a deadlock?",
+        "What is an index?"
+      ],
+      "partB": [
+        "Explain the E-R model: entities, attributes, relationships and cardinality. Convert a sample E-R diagram into tables.",
+        "Explain SQL with DDL, DML, DCL and TCL, giving one example statement for each.",
+        "Write SQL queries using WHERE, GROUP BY, HAVING and JOIN for a given sample schema.",
+        "Explain normalisation: 1NF, 2NF, 3NF and BCNF with a worked example.",
+        "Explain transaction management and ACID properties with examples.",
+        "Explain deadlocks: conditions, prevention, avoidance and detection. Solve a Banker's algorithm example.",
+        "Explain views: types, creation and applications.",
+        "Explain locking and concurrency control. Discuss serialisability.",
+        "Explain database security: authentication, authorisation and integrity.",
+        "Explain nested queries and correlated sub-queries with examples."
+      ]
+    },
+    "CS401": {
+      "branch": "b-cse", "code": "CS401", "name": "Operating Systems", "sem": 4,
+      "partA": [
+        "Name four functions of an operating system.",
+        "What is a process?",
+        "State the basic states of a process.",
+        "Define turnaround time.",
+        "What is a deadlock?",
+        "Name the four Coffman conditions.",
+        "What is paging?",
+        "Name two page replacement algorithms.",
+        "Define thrashing.",
+        "What is a PCB?"
+      ],
+      "partB": [
+        "Explain process states and transitions with a diagram. Explain the PCB.",
+        "Explain CPU scheduling: FCFS, SJF, Priority and Round Robin. Compute average waiting time for a given set of processes.",
+        "Explain deadlocks: conditions, prevention, avoidance and detection with examples.",
+        "Solve the Banker's algorithm for a given allocation and maximum matrix.",
+        "Explain memory management: contiguous allocation, paging and segmentation.",
+        "Explain page replacement: FIFO, OPT and LRU. Compare them with an example.",
+        "Explain virtual memory and demand paging. Discuss thrashing.",
+        "Explain inter-process communication: pipes, message passing and shared memory.",
+        "Explain file systems: directory structures, allocation methods and free-space management.",
+        "Explain system calls and the user-kernel interface."
+      ]
+    },
+    "CS402": {
+      "branch": "b-cse", "code": "CS402", "name": "Computer Networks", "sem": 4,
+      "partA": [
+        "Name the seven layers of the OSI model.",
+        "What is a protocol?",
+        "State one difference between datagram and virtual circuit.",
+        "What is a frame?",
+        "State one use of a checksum.",
+        "What is a subnet mask?",
+        "Define ARP.",
+        "What is the main difference between TCP and UDP?",
+        "Name two applications that use UDP.",
+        "What is DNS?"
+      ],
+      "partB": [
+        "Explain the OSI reference model with the function of each layer.",
+        "Explain data link layer functions: framing, error control and flow control.",
+        "Explain CRC error detection with a worked example.",
+        "Explain sliding window protocol with an example.",
+        "Explain classful IP addressing and subnetting with a worked example.",
+        "Explain ARP and ICMP operation with message sequences.",
+        "Explain TCP: three-way handshake, flow control and congestion control.",
+        "Explain routing: static, distance vector and link state with examples.",
+        "Explain the operation of DNS, HTTP and FTP.",
+        "Compare OSI and TCP/IP models layer by layer."
+      ]
+    },
+    "CS201": {
+      "branch": "b-cse", "code": "CS201", "name": "Python Programming", "sem": 2,
+      "partA": [
+        "Name two features that make Python popular.",
+        "State two mutable data types in Python.",
+        "What is a lambda function?",
+        "How are mutable objects passed to functions in Python?",
+        "What does the len() function do?",
+        "State the difference between a list and a tuple.",
+        "What is a dictionary?",
+        "What does try-except do?",
+        "What is the __init__ method?",
+        "Name one built-in string method used for searching."
+      ],
+      "partB": [
+        "Explain Python data types, variables and operators. Write a program using them.",
+        "Explain functions in Python: arguments, return values, scope and lambda functions with examples.",
+        "Explain lists: creation, operations and list comprehensions with programs.",
+        "Explain dictionaries and file handling in Python with example programs.",
+        "Explain exception handling in Python with examples.",
+        "Explain OOP in Python: classes, objects, inheritance, encapsulation and polymorphism with a program.",
+        "Explain strings and string methods with examples.",
+        "Explain modules and packages. Demonstrate with a small project structure.",
+        "Write recursive programs: factorial, Fibonacci and Tower of Hanoi.",
+        "Explain sets and tuples and their operations with examples."
+      ]
+    },
+    "CS101": {
+      "branch": "b-cse", "code": "CS101", "name": "Programming in C", "sem": 1,
+      "partA": [
+        "Name the parts of a C program.",
+        "What is a compiler?",
+        "State two integer data types in C.",
+        "What does the sizeof operator do?",
+        "What is a pointer?",
+        "State the difference between call by value and call by reference.",
+        "What is a structure?",
+        "Name one string library function.",
+        "What is recursion?",
+        "What is a header file?"
+      ],
+      "partB": [
+        "Explain the structure of a C program with a complete example.",
+        "Explain decision making and loops in C with example programs.",
+        "Explain functions in C: prototypes, call by value and recursion with programs.",
+        "Explain pointers: declaration, arithmetic and pointer to array with programs.",
+        "Explain strings in C using character arrays and string functions.",
+        "Explain structures and unions with example programs.",
+        "Explain one and two dimensional arrays with programs (search, sort).",
+        "Explain file handling in C with a complete program.",
+        "Write recursive programs for factorial and Fibonacci with a complexity discussion.",
+        "Explain command line arguments in C with a program."
+      ]
+    },
+    "CS203": {
+      "branch": "b-cse", "code": "CS203", "name": "Digital Logic Design", "sem": 2,
+      "partA": [
+        "Convert (25)10 to binary.",
+        "State one use of 2's complement.",
+        "What is a K-map?",
+        "Name two universal gates.",
+        "How many inputs does an 8:1 multiplexer have?",
+        "State the difference between a latch and a flip-flop.",
+        "What is the race-around condition?",
+        "Name two types of sequential circuits.",
+        "What is a shift register?",
+        "Define memory word size."
+      ],
+      "partB": [
+        "Explain number system conversions between binary, octal, decimal and hexadecimal with examples.",
+        "Explain 1's and 2's complement arithmetic with examples.",
+        "Simplify Boolean expressions using 4-variable and 5-variable K-maps.",
+        "Explain combinational circuits: adder, subtractor and comparator with logic diagrams.",
+        "Design an 8:1 multiplexer and a 4:1 demultiplexer with explanations.",
+        "Explain SR, D, T and JK flip-flops: truth tables and excitation tables.",
+        "Explain synchronous counters. Design a mod-8 counter.",
+        "Explain shift registers and their applications.",
+        "Explain memory units: SRAM, DRAM, ROM and EPROM.",
+        "Explain the 8085 microprocessor architecture with a block diagram."
+      ]
+    },
+    "MA101": {
+      "branch": "b-cse", "code": "MA101", "name": "Engineering Mathematics I", "sem": 1,
+      "partA": [
+        "State Euler's theorem for homogeneous functions.",
+        "What is the Jacobian?",
+        "State Taylor's theorem for one variable.",
+        "What is an exact differential equation?",
+        "State Fourier's theorem briefly.",
+        "Define the gamma function.",
+        "State one property of the beta function.",
+        "What are the Dirichlet conditions?",
+        "State the sufficient condition for maxima and minima of a function of two variables.",
+        "What is a homogeneous differential equation?"
+      ],
+      "partB": [
+        "Explain partial derivatives and prove Euler's theorem with an example.",
+        "Find the maxima and minima of a given function of two variables.",
+        "Expand a given function using Taylor's and Maclaurin's series.",
+        "Solve first order ODEs: separable, homogeneous and exact, with examples.",
+        "Find the Fourier series of a given periodic function.",
+        "Solve a Bernoulli equation and a linear first order ODE with examples.",
+        "Explain gamma and beta functions. Evaluate a given integral using them.",
+        "Evaluate a double integral and change the order of integration.",
+        "Explain total derivative and implicit differentiation with examples.",
+        "Solve a second order linear ODE with constant coefficients."
+      ]
+    },
+    "MA301": {
+      "branch": "b-cse", "code": "MA301", "name": "Engineering Mathematics III", "sem": 3,
+      "partA": [
+        "What is an eigenvalue?",
+        "State one property of rank of a matrix.",
+        "Define divergence.",
+        "State Green's theorem briefly.",
+        "What is Cramer's rule?",
+        "State the Cauchy-Riemann equations.",
+        "What is a linear transformation?",
+        "Define curl.",
+        "State Stokes' theorem briefly.",
+        "What is a diagonal matrix?"
+      ],
+      "partB": [
+        "Find the eigenvalues and eigenvectors of a given matrix and diagonalise it.",
+        "Solve a system of linear equations using matrix methods (Gauss elimination).",
+        "Explain vector calculus: divergence, curl and gradient with identities.",
+        "State and apply Green's, Stokes' and the Divergence theorems with examples.",
+        "Explain linear transformations, kernel and image with examples.",
+        "Explain analytic functions and the Cauchy-Riemann equations with examples.",
+        "Evaluate a contour integral using Cauchy's theorem and integral formula.",
+        "Solve a system of linear equations using Cramer's rule."
+      ]
+    },
+    "CS303": {
+      "branch": "b-cse", "code": "CS303", "name": "Theory of Computation", "sem": 3,
+      "partA": [
+        "Define a finite automaton.",
+        "State the difference between a DFA and an NFA.",
+        "What is a regular expression?",
+        "What is a grammar?",
+        "Name the two types of derivation in a CFG.",
+        "What is CNF?",
+        "State the pumping lemma for regular languages in words.",
+        "What is a parse tree?",
+        "Define a terminal symbol.",
+        "What is a decider?"
+      ],
+      "partB": [
+        "Construct a DFA/NFA for a given language with a state diagram.",
+        "Convert an NFA into a DFA with a complete example.",
+        "Explain regular languages and regular expressions. Prove closure properties.",
+        "Minimise a given DFA using the partition method.",
+        "Explain context-free grammars: leftmost and rightmost derivations, parse trees.",
+        "Convert a given CFG into Chomsky normal form.",
+        "Apply the pumping lemma to show that a given language is not regular.",
+        "Explain the Chomsky hierarchy of languages and grammars."
+      ]
+    },
+    "CS502": {
+      "branch": "b-cse", "code": "CS502", "name": "Design and Analysis of Algorithms", "sem": 5,
+      "partA": [
+        "State the Master theorem briefly.",
+        "Name the three steps of divide and conquer.",
+        "What is the knapsack problem?",
+        "Name two algorithms for minimum spanning tree.",
+        "What is a substructure in dynamic programming?",
+        "State one use of backtracking.",
+        "What is a recurrence relation?",
+        "What is a heap?",
+        "What is the time complexity of merge sort?",
+        "State the greedy-choice property."
+      ],
+      "partB": [
+        "Solve a given recurrence using the Master theorem and the recursion tree method.",
+        "Explain the greedy method. Solve the fractional knapsack with an example.",
+        "Explain Prim's and Kruskal's MST algorithms. Solve a given graph.",
+        "Explain Dijkstra's shortest path algorithm. Solve a given graph.",
+        "Explain dynamic programming. Solve the 0/1 knapsack with an example.",
+        "Solve the longest common subsequence problem using dynamic programming.",
+        "Explain backtracking. Solve the N-Queens problem.",
+        "Compare greedy and dynamic programming approaches with examples."
+      ]
+    },
+    "CS503": {
+      "branch": "b-cse", "code": "CS503", "name": "Web Technologies", "sem": 5,
+      "partA": [
+        "What is HTML?",
+        "Name two semantic HTML5 elements.",
+        "What is the CSS box model?",
+        "What is a media query?",
+        "What is the DOM?",
+        "What is an event in JavaScript?",
+        "What is AJAX?",
+        "What is JSON?",
+        "Name two parts of the MVC architecture.",
+        "What is a responsive website?"
+      ],
+      "partB": [
+        "Explain HTML5: structure, semantics and new elements with examples.",
+        "Explain CSS: selectors, box model, flexbox and grid with examples.",
+        "Explain responsive web design and media queries with a mobile layout example.",
+        "Explain JavaScript fundamentals: variables, functions and DOM manipulation with programs.",
+        "Explain event handling in JavaScript with examples.",
+        "Explain AJAX and JSON with a working example.",
+        "Explain the MVC architecture with an example.",
+        "Explain the client-server model of the web."
+      ]
+    },
+    "CS601": {
+      "branch": "b-cse", "code": "CS601", "name": "Machine Learning", "sem": 6,
+      "partA": [
+        "Define machine learning.",
+        "State one example of supervised learning.",
+        "What is overfitting?",
+        "State the decision rule of logistic regression.",
+        "What is information gain?",
+        "State Bayes' theorem.",
+        "State one advantage of k-NN.",
+        "What is a kernel in SVM?",
+        "What is backpropagation?",
+        "What is a confusion matrix?"
+      ],
+      "partB": [
+        "Explain linear and logistic regression with derivation and an example.",
+        "Explain the bias-variance trade-off and overfitting with remedies.",
+        "Explain decision trees (ID3/CART) with an example.",
+        "Explain Naive Bayes classification with a worked example.",
+        "Explain k-NN classification and K-means clustering with examples.",
+        "Explain SVM and the kernel trick.",
+        "Explain neural networks: perceptron and backpropagation with an example.",
+        "Explain model evaluation: metrics, cross-validation and confusion matrix."
+      ]
+    },
+    "CS501": {
+      "branch": "b-cse", "code": "CS501", "name": "Computer Organization and Architecture", "sem": 5,
+      "partA": [
+        "What is the von Neumann architecture?",
+        "Name two CPU registers.",
+        "What is an instruction cycle?",
+        "Name two I/O methods.",
+        "What is cache memory?",
+        "Define a page table.",
+        "What is a pipeline?",
+        "Name two types of pipeline hazards.",
+        "What is SIMD?",
+        "State one difference between RISC and CISC."
+      ],
+      "partB": [
+        "Explain the von Neumann architecture and its limitations.",
+        "Explain the CPU: ALU, registers and control unit with a block diagram.",
+        "Explain the instruction cycle, timing and addressing modes.",
+        "Explain I/O methods: programmed I/O, interrupt-driven I/O and DMA.",
+        "Explain cache memory and mapping techniques with an example.",
+        "Explain virtual memory and page tables.",
+        "Explain pipelining: types of hazards and their solutions.",
+        "Compare RISC and CISC architectures. Explain parallelism (SIMD/MIMD)."
+      ]
+    },
+    "CS403": {
+      "branch": "b-cse", "code": "CS403", "name": "Software Engineering", "sem": 4,
+      "partA": [
+        "Define software engineering.",
+        "Name two SDLC models.",
+        "What is a sprint in Scrum?",
+        "What is an SRS?",
+        "Name two UML diagrams.",
+        "What is white-box testing?",
+        "Define a test case.",
+        "Name two types of software maintenance.",
+        "What is COCOMO?",
+        "What is coupling?"
+      ],
+      "partB": [
+        "Explain SDLC models: waterfall, spiral and agile with advantages and disadvantages.",
+        "Explain requirements engineering and the structure of an SRS document.",
+        "Explain UML: use case, class and sequence diagrams with an example system.",
+        "Explain software testing levels: unit, integration, system and acceptance.",
+        "Explain black-box and white-box testing techniques with examples.",
+        "Explain software maintenance types and software metrics.",
+        "Explain project planning: WBS, PERT and COCOMO.",
+        "Explain agile: Scrum roles, artifacts and events."
+      ]
+    },
+    "EC202": {
+      "branch": "b-ece", "code": "EC202", "name": "Network Theory", "sem": 2,
+      "partA": [
+        "State Kirchhoff's current law.",
+        "What is a planar network?",
+        "Define Thevenin voltage.",
+        "What is a first-order circuit?",
+        "State the maximum power transfer condition.",
+        "Name two two-port parameters.",
+        "What is duality in networks?",
+        "Define natural response.",
+        "What is an ideal transformer?",
+        "State one network theorem."
+      ],
+      "partB": [
+        "Solve a given circuit using nodal and mesh analysis.",
+        "Explain Thevenin's, Norton's, superposition and maximum power transfer theorems with examples.",
+        "Explain transient analysis of first-order RL and RC circuits.",
+        "Explain two-port network parameters (Z, Y, ABCD, h) and interconnections.",
+        "Explain series and parallel resonance with examples.",
+        "Explain dependent sources and duality in network analysis."
+      ]
+    },
+    "EC301": {
+      "branch": "b-ece", "code": "EC301", "name": "Signals and Systems", "sem": 3,
+      "partA": [
+        "Classify signals into energy signals and power signals.",
+        "What is the sampling theorem?",
+        "State one property of a stable LTI system.",
+        "What is the convolution integral?",
+        "State one property of the Fourier transform.",
+        "What is the Laplace transform of u(t)?",
+        "What is the Z-transform?",
+        "State one use of the region of convergence (ROC).",
+        "Define impulse response.",
+        "What is a periodic signal?"
+      ],
+      "partB": [
+        "Classify signals and systems: energy/power, deterministic/random, LTI with examples.",
+        "Explain LTI systems. Derive and explain the convolution integral with an example.",
+        "Find the Fourier series of a square wave and state Parseval's theorem.",
+        "Explain Fourier transform properties. Find the transform of a given signal.",
+        "Explain the Laplace transform. Solve a differential equation using it.",
+        "Explain the Z-transform and its properties. Find inverse Z-transforms.",
+        "Explain system analysis using Laplace transform: transfer function, poles and zeros.",
+        "Compare continuous-time and discrete-time Fourier transforms."
+      ]
+    },
+    "EC401": {
+      "branch": "b-ece", "code": "EC401", "name": "Digital Signal Processing", "sem": 4,
+      "partA": [
+        "State the sampling theorem.",
+        "What is aliasing?",
+        "Define the discrete Fourier transform (DFT).",
+        "Name one advantage of FFT.",
+        "What is bilinear transformation?",
+        "What is a window in FIR design?",
+        "Define linear convolution.",
+        "What is quantisation?",
+        "Name two types of digital filters.",
+        "What is the DTFT?"
+      ],
+      "partB": [
+        "Explain the sampling theorem and aliasing with examples.",
+        "Derive the radix-2 DIT FFT algorithm with a flow graph.",
+        "Explain bilinear transformation for IIR filter design with an example.",
+        "Design a FIR filter using the window method with an example.",
+        "Explain linear and circular convolution with examples.",
+        "Explain IIR filter structures: direct form and cascade form.",
+        "Explain effects of finite word length and quantisation.",
+        "Explain DFT properties and their applications."
+      ]
+    },
+    "EC302": {
+      "branch": "b-ece", "code": "EC302", "name": "Analog and Digital Electronics", "sem": 3,
+      "partA": [
+        "What is a Zener diode?",
+        "Name two BJT configurations.",
+        "What is a voltage divider bias?",
+        "Define small-signal analysis.",
+        "What is a class-A amplifier?",
+        "Name two feedback topologies.",
+        "What is a Schmitt trigger?",
+        "Define h-parameters.",
+        "What is bias stability?",
+        "What is a differential amplifier?"
+      ],
+      "partB": [
+        "Explain the E-M model of the diode. Draw diode and Zener V-I characteristics.",
+        "Explain BJT small-signal analysis using h-parameters.",
+        "Explain biasing techniques: fixed, emitter-stabilised and voltage divider.",
+        "Explain common-emitter, common-base and common-collector configurations.",
+        "Explain a class-A amplifier and calculate its efficiency.",
+        "Explain feedback topologies and their effects on amplifier performance."
+      ]
+    },
+    "EE201": {
+      "branch": "b-eee", "code": "EE201", "name": "Circuit Theory", "sem": 2,
+      "partA": [
+        "State Kirchhoff's current law.",
+        "What is a mesh?",
+        "Define impedance.",
+        "What is resonance?",
+        "State Thevenin's theorem.",
+        "What is the time constant of an RL circuit?",
+        "Define quality factor.",
+        "What is a node?",
+        "State the superposition theorem.",
+        "What is a phasor?"
+      ],
+      "partB": [
+        "Explain nodal and mesh analysis. Solve a given circuit.",
+        "Explain series and parallel RLC circuits. Derive impedance and admittance.",
+        "Explain Thevenin's, Norton's and superposition theorems with examples.",
+        "Explain transient analysis of first-order RL and RC circuits.",
+        "Explain resonance and quality factor in AC circuits.",
+        "Explain maximum power transfer theorem for AC circuits."
+      ]
+    },
+    "EE302": {
+      "branch": "b-eee", "code": "EE302", "name": "Control Systems", "sem": 3,
+      "partA": [
+        "Define a control system.",
+        "What is a transfer function?",
+        "Name two time domain specifications.",
+        "What is the Routh array?",
+        "What is a root locus?",
+        "Define gain margin.",
+        "What is a PID controller?",
+        "What is steady-state error?",
+        "Define damping ratio.",
+        "What is a block diagram?"
+      ],
+      "partB": [
+        "Find the transfer function of a given mechanical or electrical system.",
+        "Explain time response of second-order systems: rise time, peak time, overshoot and settling time.",
+        "Explain the Routh-Hurwitz criterion. Test stability of a given system.",
+        "Draw and explain the root locus of a given system.",
+        "Explain Bode plots. Find gain and phase margins.",
+        "Explain steady-state error analysis and the effect of system type.",
+        "Explain PID controllers and their effect on system performance."
+      ]
+    },
+    "EE401": {
+      "branch": "b-eee", "code": "EE401", "name": "Power Electronics", "sem": 4,
+      "partA": [
+        "What is a thyristor?",
+        "Name two types of rectifiers.",
+        "What is an inverter?",
+        "Define duty cycle of a chopper.",
+        "What is an AC voltage controller?",
+        "Name one power semiconductor device.",
+        "What is a snubber circuit?",
+        "Define THD.",
+        "What is a freewheeling diode?",
+        "Name two types of choppers."
+      ],
+      "partB": [
+        "Explain the construction and working of an SCR with V-I characteristics.",
+        "Explain single-phase half-wave and full-wave rectifiers with waveforms and calculations.",
+        "Explain single-phase full-bridge inverter operation with waveforms.",
+        "Explain step-up and step-down choppers with waveforms and calculations.",
+        "Explain single-phase AC voltage controllers: phase control and ON-OFF control.",
+        "Explain power semiconductor devices: diodes, MOSFETs and IGBTs."
+      ]
+    },
+    "ME201": {
+      "branch": "b-me", "code": "ME201", "name": "Engineering Thermodynamics", "sem": 2,
+      "partA": [
+        "Define a thermodynamic system.",
+        "State the first law of thermodynamics.",
+        "What is entropy?",
+        "Define a Carnot engine.",
+        "What is a quasi-static process?",
+        "State the zeroth law of thermodynamics.",
+        "Define a closed system.",
+        "What is a heat engine?",
+        "Define enthalpy.",
+        "State one use of steam tables."
+      ],
+      "partB": [
+        "State the first law of thermodynamics. Apply it to closed and open systems.",
+        "Explain the second law of thermodynamics and entropy.",
+        "Find the efficiency of a Carnot engine. Solve a numerical.",
+        "Explain properties of water and steam. Read steam tables.",
+        "Compare Otto, Diesel and dual cycles with P-V diagrams.",
+        "Explain work and heat transfer in quasi-static processes."
+      ]
+    },
+    "ME202": {
+      "branch": "b-me", "code": "ME202", "name": "Engineering Mechanics", "sem": 2,
+      "partA": [
+        "State Lami's theorem.",
+        "What is the moment of a force?",
+        "Define centroid.",
+        "State the parallel axis theorem.",
+        "What is friction?",
+        "Define angle of repose.",
+        "What is a truss?",
+        "State Varignon's theorem.",
+        "What is the perpendicular axis theorem?",
+        "Define resultant force."
+      ],
+      "partB": [
+        "Find the resultant of a system of concurrent forces with a diagram.",
+        "Explain and apply Lami's theorem and Varignon's theorem.",
+        "Find the centroid of a given composite section.",
+        "Explain moment of inertia and the parallel/perpendicular axis theorems with examples.",
+        "Solve a friction problem: wedge and angle of repose.",
+        "Analyze a truss using method of joints and method of sections."
+      ]
+    },
+    "ME301": {
+      "branch": "b-me", "code": "ME301", "name": "Strength of Materials", "sem": 3,
+      "partA": [
+        "Define stress and strain.",
+        "State Hooke's law.",
+        "What is a shear force diagram?",
+        "Define section modulus.",
+        "State the torsion equation.",
+        "What is a column?",
+        "Define slenderness ratio.",
+        "Name one theory of failure.",
+        "What is a point of contraflexure?",
+        "Define Young's modulus."
+      ],
+      "partB": [
+        "Explain the stress-strain diagram. Derive the relation between E, G, K and Poisson's ratio.",
+        "Draw SFD and BMD for a given simply supported beam. Find maximum bending stress.",
+        "Derive the bending equation. Find section modulus of a given section.",
+        "Derive the torsion equation. Solve a circular shaft problem.",
+        "Explain Euler's column theory. Find the critical load for a given column.",
+        "Explain theories of failure: maximum principal stress and maximum shear stress with examples."
+      ]
+    },
+    "ME303": {
+      "branch": "b-me", "code": "ME303", "name": "Fluid Mechanics", "sem": 3,
+      "partA": [
+        "Define viscosity.",
+        "State Pascal's law.",
+        "What is a streamline?",
+        "State Bernoulli's equation.",
+        "What is a venturimeter?",
+        "Define Reynolds number.",
+        "What is head loss?",
+        "Define boundary layer.",
+        "What is an ideal fluid?",
+        "State the continuity equation."
+      ],
+      "partB": [
+        "Explain fluid properties: viscosity, surface tension, compressibility and vapour pressure.",
+        "Explain Pascal's law. Solve a hydraulic press problem.",
+        "State and apply Bernoulli's equation with assumptions.",
+        "Explain flow measurement: venturimeter, orifice meter and pitot tube.",
+        "Explain laminar and turbulent flow, Reynolds number and the Darcy-Weisbach equation.",
+        "Explain the boundary layer concept and its applications."
+      ]
+    },
+    "CE203": {
+      "branch": "b-ce", "code": "CE203", "name": "Surveying", "sem": 2,
+      "partA": [
+        "What is chain surveying?",
+        "Define bearing.",
+        "What is local attraction?",
+        "Define reduced level.",
+        "Name two methods of levelling.",
+        "What is a theodolite?",
+        "Define a traverse.",
+        "What is a contour?",
+        "State one use of a clinometer.",
+        "Define closing error."
+      ],
+      "partB": [
+        "Explain chain surveying: principles, errors and corrections.",
+        "Explain compass surveying: bearings and local attraction with examples.",
+        "Explain direct and indirect levelling. Compute reduced levels by the HI method.",
+        "Explain the theodolite: definitions and measurement of horizontal angles.",
+        "Explain traversing. Compute latitudes and departures and adjust the error.",
+        "Explain contouring: characteristics, methods and applications."
+      ]
+    },
+    "CE301": {
+      "branch": "b-ce", "code": "CE301", "name": "Strength of Materials", "sem": 3,
+      "partA": [
+        "Define stress and strain.",
+        "State Hooke's law.",
+        "What is a bending moment diagram?",
+        "Define section modulus.",
+        "What is a column?",
+        "Define slenderness ratio.",
+        "What is a point of contraflexure?",
+        "Name one theory of failure.",
+        "Define shear stress.",
+        "What is a built-up section?"
+      ],
+      "partB": [
+        "Explain stress and strain. Derive the relation E = 2G(1 + nu).",
+        "Draw SFD and BMD for a cantilever with UDL.",
+        "Explain shear stress distribution in a rectangular section.",
+        "Explain shortening of a column under eccentric load.",
+        "Explain slenderness ratio in RCC columns.",
+        "Solve a built-up section problem for moment of inertia."
+      ]
+    },
+    "CE401": {
+      "branch": "b-ce", "code": "CE401", "name": "Design of RC Structures", "sem": 4,
+      "partA": [
+        "What is the working stress method?",
+        "Define characteristic strength.",
+        "What is a singly reinforced beam?",
+        "Define an isolated footing.",
+        "What is a two-way slab?",
+        "State one limit state.",
+        "What is development length?",
+        "Define effective cover.",
+        "What is D-steel?",
+        "State one minimum steel requirement."
+      ],
+      "partB": [
+        "Explain the working stress method of RCC design with an example.",
+        "Design a singly reinforced beam by the limit state method.",
+        "Explain the design of one-way slabs.",
+        "Explain the design of isolated footings.",
+        "Explain two-way slabs: load distribution and design.",
+        "Explain minimum steel requirements and reinforcement detailing in RCC."
+      ]
+    },
+    "IT301": {
+      "branch": "b-it", "code": "IT301", "name": "Database Management Systems", "sem": 3,
+      "partA": [
+        "Define a DBMS.",
+        "What is an entity?",
+        "Name two DDL commands.",
+        "What is a foreign key?",
+        "State one normal form.",
+        "What is ACID?",
+        "Define an index.",
+        "What is a view?",
+        "Name two data models.",
+        "What is a query?"
+      ],
+      "partB": [
+        "Explain the E-R model and mapping to the relational model.",
+        "Write SQL queries using JOIN and GROUP BY for a sample schema.",
+        "Explain normalisation: 1NF, 2NF and 3NF with an example.",
+        "Explain ACID transaction properties with examples.",
+        "Explain indexing and hashing.",
+        "Explain DBMS security: authentication, authorisation and views."
+      ]
+    },
+    "AIML401": {
+      "branch": "b-aiml", "code": "AIML401", "name": "Machine Learning", "sem": 4,
+      "partA": [
+        "Define machine learning.",
+        "Name two supervised learning algorithms.",
+        "What is a classifier?",
+        "State one evaluation metric.",
+        "What is a feature?",
+        "Define a hypothesis.",
+        "What is a loss function?",
+        "Name one clustering algorithm.",
+        "What is a decision boundary?",
+        "State one use of cross-validation."
+      ],
+      "partB": [
+        "Explain the ML paradigm: supervised, unsupervised and reinforcement with examples.",
+        "Explain linear and logistic regression with derivation.",
+        "Explain k-NN with a worked example.",
+        "Explain decision trees: information gain and construction.",
+        "Explain train/test split, cross-validation and evaluation metrics.",
+        "Explain overfitting, underfitting and regularisation."
+      ]
+    },
+    "DS301": {
+      "branch": "b-ds", "code": "DS301", "name": "Probability and Statistics", "sem": 3,
+      "partA": [
+        "Define the arithmetic mean.",
+        "What is a probability distribution?",
+        "State Bayes' theorem.",
+        "Define a random variable.",
+        "What is a sampling frame?",
+        "State one property of the normal distribution.",
+        "Define a hypothesis.",
+        "What is the null hypothesis?",
+        "State the mean of the binomial distribution.",
+        "Define the p-value."
+      ],
+      "partB": [
+        "Explain measures of central tendency: mean, median and mode with examples.",
+        "Explain binomial and Poisson distributions with applications.",
+        "State and apply Bayes' theorem with an example.",
+        "Explain sampling techniques and sampling error.",
+        "Explain estimation: point and interval estimation with examples.",
+        "Explain hypothesis testing: z-test for a population mean with an example."
+      ]
+    },
+    "AIML201": {
+      "branch": "b-aiml", "code": "AIML201", "name": "Linear Algebra and Probability", "sem": 2,
+      "partA": [
+        "Find the rank of a 3x3 matrix (given).",
+        "State Cramer's rule.",
+        "What is an eigenvalue?",
+        "Define a vector space.",
+        "State one property of determinants.",
+        "What is a basis?",
+        "Define linear independence.",
+        "What is a stochastic matrix?",
+        "State the law of total probability.",
+        "Define a random variable."
+      ],
+      "partB": [
+        "Solve a system of linear equations by Gauss elimination.",
+        "Find eigenvalues and eigenvectors of a given matrix. Check diagonalisability.",
+        "Explain determinants and Cramer's rule with examples.",
+        "Explain linear independence and basis of a vector space.",
+        "Solve a least squares problem with an example.",
+        "Explain basic probability: addition, multiplication and conditional probability with examples."
+      ]
+    }
+  },
+  "papers": [
+    { "file": "cs301-2023-es", "subject": "CS301", "year": 2023, "examType": "End Semester" },
+    { "file": "cs301-2024-es", "subject": "CS301", "year": 2024, "examType": "End Semester" },
+    { "file": "cs301-2025-es", "subject": "CS301", "year": 2025, "examType": "End Semester" },
+    { "file": "cs301-2026-es", "subject": "CS301", "year": 2026, "examType": "End Semester" },
+    { "file": "cs301-2025-supp", "subject": "CS301", "year": 2025, "examType": "Supplementary" },
+    { "file": "cs301-2026-model", "subject": "CS301", "year": 2026, "examType": "Model" },
+    { "file": "cs302-2023-es", "subject": "CS302", "year": 2023, "examType": "End Semester" },
+    { "file": "cs302-2024-es", "subject": "CS302", "year": 2024, "examType": "End Semester" },
+    { "file": "cs302-2025-es", "subject": "CS302", "year": 2025, "examType": "End Semester" },
+    { "file": "cs302-2026-es", "subject": "CS302", "year": 2026, "examType": "End Semester" },
+    { "file": "cs302-2024-supp", "subject": "CS302", "year": 2024, "examType": "Supplementary" },
+    { "file": "cs302-2026-model", "subject": "CS302", "year": 2026, "examType": "Model" },
+    { "file": "cs401-2024-es", "subject": "CS401", "year": 2024, "examType": "End Semester" },
+    { "file": "cs401-2025-es", "subject": "CS401", "year": 2025, "examType": "End Semester" },
+    { "file": "cs401-2026-es", "subject": "CS401", "year": 2026, "examType": "End Semester" },
+    { "file": "cs401-2025-supp", "subject": "CS401", "year": 2025, "examType": "Supplementary" },
+    { "file": "cs401-2026-model", "subject": "CS401", "year": 2026, "examType": "Model" },
+    { "file": "cs402-2024-es", "subject": "CS402", "year": 2024, "examType": "End Semester" },
+    { "file": "cs402-2025-es", "subject": "CS402", "year": 2025, "examType": "End Semester" },
+    { "file": "cs402-2026-es", "subject": "CS402", "year": 2026, "examType": "End Semester" },
+    { "file": "cs402-2026-model", "subject": "CS402", "year": 2026, "examType": "Model" },
+    { "file": "cs201-2024-es", "subject": "CS201", "year": 2024, "examType": "End Semester" },
+    { "file": "cs201-2025-es", "subject": "CS201", "year": 2025, "examType": "End Semester" },
+    { "file": "cs201-2026-es", "subject": "CS201", "year": 2026, "examType": "End Semester" },
+    { "file": "cs201-2026-model", "subject": "CS201", "year": 2026, "examType": "Model" },
+    { "file": "cs101-2024-es", "subject": "CS101", "year": 2024, "examType": "End Semester" },
+    { "file": "cs101-2025-es", "subject": "CS101", "year": 2025, "examType": "End Semester" },
+    { "file": "cs101-2026-es", "subject": "CS101", "year": 2026, "examType": "End Semester" },
+    { "file": "cs203-2024-es", "subject": "CS203", "year": 2024, "examType": "End Semester" },
+    { "file": "cs203-2025-es", "subject": "CS203", "year": 2025, "examType": "End Semester" },
+    { "file": "ma101-2024-es", "subject": "MA101", "year": 2024, "examType": "End Semester" },
+    { "file": "ma101-2025-es", "subject": "MA101", "year": 2025, "examType": "End Semester" },
+    { "file": "ma301-2025-es", "subject": "MA301", "year": 2025, "examType": "End Semester" },
+    { "file": "cs303-2025-es", "subject": "CS303", "year": 2025, "examType": "End Semester" },
+    { "file": "cs502-2025-es", "subject": "CS502", "year": 2025, "examType": "End Semester" },
+    { "file": "cs503-2025-es", "subject": "CS503", "year": 2025, "examType": "End Semester" },
+    { "file": "cs601-2025-es", "subject": "CS601", "year": 2025, "examType": "End Semester" },
+    { "file": "cs501-2025-es", "subject": "CS501", "year": 2025, "examType": "End Semester" },
+    { "file": "cs403-2025-es", "subject": "CS403", "year": 2025, "examType": "End Semester" },
+    { "file": "ec202-2025-es", "subject": "EC202", "year": 2025, "examType": "End Semester" },
+    { "file": "ec301-2025-es", "subject": "EC301", "year": 2025, "examType": "End Semester" },
+    { "file": "ec401-2025-es", "subject": "EC401", "year": 2025, "examType": "End Semester" },
+    { "file": "ec302-2025-es", "subject": "EC302", "year": 2025, "examType": "End Semester" },
+    { "file": "ee201-2025-es", "subject": "EE201", "year": 2025, "examType": "End Semester" },
+    { "file": "ee302-2025-es", "subject": "EE302", "year": 2025, "examType": "End Semester" },
+    { "file": "ee401-2025-es", "subject": "EE401", "year": 2025, "examType": "End Semester" },
+    { "file": "me201-2025-es", "subject": "ME201", "year": 2025, "examType": "End Semester" },
+    { "file": "me202-2025-es", "subject": "ME202", "year": 2025, "examType": "End Semester" },
+    { "file": "me301-2025-es", "subject": "ME301", "year": 2025, "examType": "End Semester" },
+    { "file": "me303-2025-es", "subject": "ME303", "year": 2025, "examType": "End Semester" },
+    { "file": "ce203-2025-es", "subject": "CE203", "year": 2025, "examType": "End Semester" },
+    { "file": "ce301-2025-es", "subject": "CE301", "year": 2025, "examType": "End Semester" },
+    { "file": "ce401-2025-es", "subject": "CE401", "year": 2025, "examType": "End Semester" },
+    { "file": "it301-2025-es", "subject": "IT301", "year": 2025, "examType": "End Semester" },
+    { "file": "aiml401-2025-es", "subject": "AIML401", "year": 2025, "examType": "End Semester" },
+    { "file": "aiml201-2025-es", "subject": "AIML201", "year": 2025, "examType": "End Semester" },
+    { "file": "ds301-2025-es", "subject": "DS301", "year": 2025, "examType": "End Semester" }
+  ]
+}

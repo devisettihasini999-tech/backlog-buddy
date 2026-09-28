@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2200 >>
+stream
+BT 50 800 Td 20 TL /F2 15 Tf (Sample Supplementary Question Paper - 2024) Tj T* (Subject: Database Management Systems   |   Code: CS302   |   Semester: 3) Tj T* (Branch: CSE   |   Regulation: R20 \(sample\)   |   Time: 3 Hours   |   Max Marks: 90) Tj T* ET
+BT 50 710 Td 14 TL /F1 9.5 Tf (This is a SAMPLE question paper generated for Backlog Buddy \(demo/testing data\).) Tj T* (It is not an official university paper and is provided to demonstrate the platform.) Tj T* ET
+BT 50 658 Td 16 TL /F2 12 Tf (PART A - Short questions  \(10 x 1 = 10 Marks\)) Tj T* ET
+BT 50 616 Td 15 TL /F1 10.5 Tf (1. What does the WHERE clause do in SQL?) Tj T* (2. Define a primary key.) Tj T* (3. State one requirement of 2NF.) Tj T* (4. Name the four properties of ACID.) Tj T* (5. What is a deadlock?) Tj T* (6. What is an index?) Tj T* (7. Define DBMS. State two advantages over file-based systems.) Tj T* (8. Name the three schema levels of the ANSI-SPARC architecture.) Tj T* (9. What is an E-R diagram? Name its three basic symbols.) Tj T* (10. State one difference between DDL and DML.) Tj T* ET
+BT 50 441 Td 16 TL /F2 12 Tf (PART B - Long questions  \(10 x 8 = 80 Marks\)) Tj T* ET
+BT 50 399 Td 15 TL /F1 10.5 Tf (1. Explain locking and concurrency control. Discuss serialisability.) Tj T* (2. Explain database security: authentication, authorisation and integrity.) Tj T* (3. Explain nested queries and correlated sub-queries with examples.) Tj T* (4. Explain the E-R model: entities, attributes, relationships and cardinality. Convert a sample E-R diagram into tables.) Tj T* (5. Explain SQL with DDL, DML, DCL and TCL, giving one example statement for each.) Tj T* (6. Write SQL queries using WHERE, GROUP BY, HAVING and JOIN for a given sample schema.) Tj T* (7. Explain normalisation: 1NF, 2NF, 3NF and BCNF with a worked example.) Tj T* (8. Explain transaction management and ACID properties with examples.) Tj T* (9. Explain deadlocks: conditions, prevention, avoidance and detection. Solve a Banker's algorithm example.) Tj T* (10. Explain views: types, creation and applications.) Tj T* ET
+BT 50 224 Td 12 TL /F1 8.5 Tf (Backlog Buddy - backlogbuddy demo | Prepare Smart. Clear Your Backlogs.) Tj T* ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2648
+%%EOF

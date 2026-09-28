@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2038 >>
+stream
+BT 50 800 Td 20 TL /F2 15 Tf (Sample End Semester Question Paper - 2025) Tj T* (Subject: Digital Logic Design   |   Code: CS203   |   Semester: 2) Tj T* (Branch: CSE   |   Regulation: R20 \(sample\)   |   Time: 3 Hours   |   Max Marks: 90) Tj T* ET
+BT 50 710 Td 14 TL /F1 9.5 Tf (This is a SAMPLE question paper generated for Backlog Buddy \(demo/testing data\).) Tj T* (It is not an official university paper and is provided to demonstrate the platform.) Tj T* ET
+BT 50 658 Td 16 TL /F2 12 Tf (PART A - Short questions  \(10 x 1 = 10 Marks\)) Tj T* ET
+BT 50 616 Td 15 TL /F1 10.5 Tf (1. State the difference between a latch and a flip-flop.) Tj T* (2. What is the race-around condition?) Tj T* (3. Name two types of sequential circuits.) Tj T* (4. What is a shift register?) Tj T* (5. Define memory word size.) Tj T* (6. Convert \(25\)10 to binary.) Tj T* (7. State one use of 2's complement.) Tj T* (8. What is a K-map?) Tj T* (9. Name two universal gates.) Tj T* (10. How many inputs does an 8:1 multiplexer have?) Tj T* ET
+BT 50 441 Td 16 TL /F2 12 Tf (PART B - Long questions  \(10 x 8 = 80 Marks\)) Tj T* ET
+BT 50 399 Td 15 TL /F1 10.5 Tf (1. Explain memory units: SRAM, DRAM, ROM and EPROM.) Tj T* (2. Explain the 8085 microprocessor architecture with a block diagram.) Tj T* (3. Explain number system conversions between binary, octal, decimal and hexadecimal with examples.) Tj T* (4. Explain 1's and 2's complement arithmetic with examples.) Tj T* (5. Simplify Boolean expressions using 4-variable and 5-variable K-maps.) Tj T* (6. Explain combinational circuits: adder, subtractor and comparator with logic diagrams.) Tj T* (7. Design an 8:1 multiplexer and a 4:1 demultiplexer with explanations.) Tj T* (8. Explain SR, D, T and JK flip-flops: truth tables and excitation tables.) Tj T* (9. Explain synchronous counters. Design a mod-8 counter.) Tj T* (10. Explain shift registers and their applications.) Tj T* ET
+BT 50 224 Td 12 TL /F1 8.5 Tf (Backlog Buddy - backlogbuddy demo | Prepare Smart. Clear Your Backlogs.) Tj T* ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2486
+%%EOF

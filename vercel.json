@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/((?!papers/|assets/).*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    { "source": "/papers/(.*)", "headers": [{ "key": "Content-Type", "value": "application/pdf" }] }
+  ]
+}

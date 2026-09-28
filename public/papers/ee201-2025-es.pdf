@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1608 >>
+stream
+BT 50 800 Td 20 TL /F2 15 Tf (Sample End Semester Question Paper - 2025) Tj T* (Subject: Circuit Theory   |   Code: EE201   |   Semester: 2) Tj T* (Branch: EEE   |   Regulation: R20 \(sample\)   |   Time: 3 Hours   |   Max Marks: 88) Tj T* ET
+BT 50 710 Td 14 TL /F1 9.5 Tf (This is a SAMPLE question paper generated for Backlog Buddy \(demo/testing data\).) Tj T* (It is not an official university paper and is provided to demonstrate the platform.) Tj T* ET
+BT 50 658 Td 16 TL /F2 12 Tf (PART A - Short questions  \(10 x 1 = 10 Marks\)) Tj T* ET
+BT 50 616 Td 15 TL /F1 10.5 Tf (1. What is the time constant of an RL circuit?) Tj T* (2. Define quality factor.) Tj T* (3. What is a node?) Tj T* (4. State the superposition theorem.) Tj T* (5. What is a phasor?) Tj T* (6. State Kirchhoff's current law.) Tj T* (7. What is a mesh?) Tj T* (8. Define impedance.) Tj T* (9. What is resonance?) Tj T* (10. State Thevenin's theorem.) Tj T* ET
+BT 50 441 Td 16 TL /F2 12 Tf (PART B - Long questions  \(6 x 13 = 78 Marks\)) Tj T* ET
+BT 50 399 Td 15 TL /F1 10.5 Tf (1. Explain nodal and mesh analysis. Solve a given circuit.) Tj T* (2. Explain series and parallel RLC circuits. Derive impedance and admittance.) Tj T* (3. Explain Thevenin's, Norton's and superposition theorems with examples.) Tj T* (4. Explain transient analysis of first-order RL and RC circuits.) Tj T* (5. Explain resonance and quality factor in AC circuits.) Tj T* (6. Explain maximum power transfer theorem for AC circuits.) Tj T* ET
+BT 50 284 Td 12 TL /F1 8.5 Tf (Backlog Buddy - backlogbuddy demo | Prepare Smart. Clear Your Backlogs.) Tj T* ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2056
+%%EOF

@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1649 >>
+stream
+BT 50 800 Td 20 TL /F2 15 Tf (Sample End Semester Question Paper - 2025) Tj T* (Subject: Engineering Thermodynamics   |   Code: ME201   |   Semester: 2) Tj T* (Branch: Mechanical   |   Regulation: R20 \(sample\)   |   Time: 3 Hours   |   Max Marks: 88) Tj T* ET
+BT 50 710 Td 14 TL /F1 9.5 Tf (This is a SAMPLE question paper generated for Backlog Buddy \(demo/testing data\).) Tj T* (It is not an official university paper and is provided to demonstrate the platform.) Tj T* ET
+BT 50 658 Td 16 TL /F2 12 Tf (PART A - Short questions  \(10 x 1 = 10 Marks\)) Tj T* ET
+BT 50 616 Td 15 TL /F1 10.5 Tf (1. State the zeroth law of thermodynamics.) Tj T* (2. Define a closed system.) Tj T* (3. What is a heat engine?) Tj T* (4. Define enthalpy.) Tj T* (5. State one use of steam tables.) Tj T* (6. Define a thermodynamic system.) Tj T* (7. State the first law of thermodynamics.) Tj T* (8. What is entropy?) Tj T* (9. Define a Carnot engine.) Tj T* (10. What is a quasi-static process?) Tj T* ET
+BT 50 441 Td 16 TL /F2 12 Tf (PART B - Long questions  \(6 x 13 = 78 Marks\)) Tj T* ET
+BT 50 399 Td 15 TL /F1 10.5 Tf (1. State the first law of thermodynamics. Apply it to closed and open systems.) Tj T* (2. Explain the second law of thermodynamics and entropy.) Tj T* (3. Find the efficiency of a Carnot engine. Solve a numerical.) Tj T* (4. Explain properties of water and steam. Read steam tables.) Tj T* (5. Compare Otto, Diesel and dual cycles with P-V diagrams.) Tj T* (6. Explain work and heat transfer in quasi-static processes.) Tj T* ET
+BT 50 284 Td 12 TL /F1 8.5 Tf (Backlog Buddy - backlogbuddy demo | Prepare Smart. Clear Your Backlogs.) Tj T* ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2097
+%%EOF

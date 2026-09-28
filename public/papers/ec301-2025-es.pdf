@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1999 >>
+stream
+BT 50 800 Td 20 TL /F2 15 Tf (Sample End Semester Question Paper - 2025) Tj T* (Subject: Signals and Systems   |   Code: EC301   |   Semester: 3) Tj T* (Branch: ECE   |   Regulation: R20 \(sample\)   |   Time: 3 Hours   |   Max Marks: 90) Tj T* ET
+BT 50 710 Td 14 TL /F1 9.5 Tf (This is a SAMPLE question paper generated for Backlog Buddy \(demo/testing data\).) Tj T* (It is not an official university paper and is provided to demonstrate the platform.) Tj T* ET
+BT 50 658 Td 16 TL /F2 12 Tf (PART A - Short questions  \(10 x 1 = 10 Marks\)) Tj T* ET
+BT 50 616 Td 15 TL /F1 10.5 Tf (1. What is the Laplace transform of u\(t\)?) Tj T* (2. What is the Z-transform?) Tj T* (3. State one use of the region of convergence \(ROC\).) Tj T* (4. Define impulse response.) Tj T* (5. What is a periodic signal?) Tj T* (6. Classify signals into energy signals and power signals.) Tj T* (7. What is the sampling theorem?) Tj T* (8. State one property of a stable LTI system.) Tj T* (9. What is the convolution integral?) Tj T* (10. State one property of the Fourier transform.) Tj T* ET
+BT 50 441 Td 16 TL /F2 12 Tf (PART B - Long questions  \(8 x 10 = 80 Marks\)) Tj T* ET
+BT 50 399 Td 15 TL /F1 10.5 Tf (1. Explain the Laplace transform. Solve a differential equation using it.) Tj T* (2. Explain the Z-transform and its properties. Find inverse Z-transforms.) Tj T* (3. Explain system analysis using Laplace transform: transfer function, poles and zeros.) Tj T* (4. Compare continuous-time and discrete-time Fourier transforms.) Tj T* (5. Classify signals and systems: energy/power, deterministic/random, LTI with examples.) Tj T* (6. Explain LTI systems. Derive and explain the convolution integral with an example.) Tj T* (7. Find the Fourier series of a square wave and state Parseval's theorem.) Tj T* (8. Explain Fourier transform properties. Find the transform of a given signal.) Tj T* ET
+BT 50 254 Td 12 TL /F1 8.5 Tf (Backlog Buddy - backlogbuddy demo | Prepare Smart. Clear Your Backlogs.) Tj T* ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2447
+%%EOF

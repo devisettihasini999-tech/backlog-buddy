@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2146 >>
+stream
+BT 50 800 Td 20 TL /F2 15 Tf (Sample End Semester Question Paper - 2025) Tj T* (Subject: Python Programming   |   Code: CS201   |   Semester: 2) Tj T* (Branch: CSE   |   Regulation: R20 \(sample\)   |   Time: 3 Hours   |   Max Marks: 90) Tj T* ET
+BT 50 710 Td 14 TL /F1 9.5 Tf (This is a SAMPLE question paper generated for Backlog Buddy \(demo/testing data\).) Tj T* (It is not an official university paper and is provided to demonstrate the platform.) Tj T* ET
+BT 50 658 Td 16 TL /F2 12 Tf (PART A - Short questions  \(10 x 1 = 10 Marks\)) Tj T* ET
+BT 50 616 Td 15 TL /F1 10.5 Tf (1. State the difference between a list and a tuple.) Tj T* (2. What is a dictionary?) Tj T* (3. What does try-except do?) Tj T* (4. What is the __init__ method?) Tj T* (5. Name one built-in string method used for searching.) Tj T* (6. Name two features that make Python popular.) Tj T* (7. State two mutable data types in Python.) Tj T* (8. What is a lambda function?) Tj T* (9. How are mutable objects passed to functions in Python?) Tj T* (10. What does the len\(\) function do?) Tj T* ET
+BT 50 441 Td 16 TL /F2 12 Tf (PART B - Long questions  \(10 x 8 = 80 Marks\)) Tj T* ET
+BT 50 399 Td 15 TL /F1 10.5 Tf (1. Write recursive programs: factorial, Fibonacci and Tower of Hanoi.) Tj T* (2. Explain sets and tuples and their operations with examples.) Tj T* (3. Explain Python data types, variables and operators. Write a program using them.) Tj T* (4. Explain functions in Python: arguments, return values, scope and lambda functions with examples.) Tj T* (5. Explain lists: creation, operations and list comprehensions with programs.) Tj T* (6. Explain dictionaries and file handling in Python with example programs.) Tj T* (7. Explain exception handling in Python with examples.) Tj T* (8. Explain OOP in Python: classes, objects, inheritance, encapsulation and polymorphism with a program.) Tj T* (9. Explain strings and string methods with examples.) Tj T* (10. Explain modules and packages. Demonstrate with a small project structure.) Tj T* ET
+BT 50 224 Td 12 TL /F1 8.5 Tf (Backlog Buddy - backlogbuddy demo | Prepare Smart. Clear Your Backlogs.) Tj T* ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2594
+%%EOF

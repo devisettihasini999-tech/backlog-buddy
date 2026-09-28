@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2127 >>
+stream
+BT 50 800 Td 20 TL /F2 15 Tf (Sample End Semester Question Paper - 2024) Tj T* (Subject: Engineering Mathematics I   |   Code: MA101   |   Semester: 1) Tj T* (Branch: CSE   |   Regulation: R20 \(sample\)   |   Time: 3 Hours   |   Max Marks: 90) Tj T* ET
+BT 50 710 Td 14 TL /F1 9.5 Tf (This is a SAMPLE question paper generated for Backlog Buddy \(demo/testing data\).) Tj T* (It is not an official university paper and is provided to demonstrate the platform.) Tj T* ET
+BT 50 658 Td 16 TL /F2 12 Tf (PART A - Short questions  \(10 x 1 = 10 Marks\)) Tj T* ET
+BT 50 616 Td 15 TL /F1 10.5 Tf (1. State Fourier's theorem briefly.) Tj T* (2. Define the gamma function.) Tj T* (3. State one property of the beta function.) Tj T* (4. What are the Dirichlet conditions?) Tj T* (5. State the sufficient condition for maxima and minima of a function of two variables.) Tj T* (6. What is a homogeneous differential equation?) Tj T* (7. State Euler's theorem for homogeneous functions.) Tj T* (8. What is the Jacobian?) Tj T* (9. State Taylor's theorem for one variable.) Tj T* (10. What is an exact differential equation?) Tj T* ET
+BT 50 441 Td 16 TL /F2 12 Tf (PART B - Long questions  \(10 x 8 = 80 Marks\)) Tj T* ET
+BT 50 399 Td 15 TL /F1 10.5 Tf (1. Evaluate a double integral and change the order of integration.) Tj T* (2. Explain total derivative and implicit differentiation with examples.) Tj T* (3. Solve a second order linear ODE with constant coefficients.) Tj T* (4. Explain partial derivatives and prove Euler's theorem with an example.) Tj T* (5. Find the maxima and minima of a given function of two variables.) Tj T* (6. Expand a given function using Taylor's and Maclaurin's series.) Tj T* (7. Solve first order ODEs: separable, homogeneous and exact, with examples.) Tj T* (8. Find the Fourier series of a given periodic function.) Tj T* (9. Solve a Bernoulli equation and a linear first order ODE with examples.) Tj T* (10. Explain gamma and beta functions. Evaluate a given integral using them.) Tj T* ET
+BT 50 224 Td 12 TL /F1 8.5 Tf (Backlog Buddy - backlogbuddy demo | Prepare Smart. Clear Your Backlogs.) Tj T* ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000260 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2575
+%%EOF
